@@ -37,6 +37,11 @@ upstream implementations require different dependency versions.
 
 ## Data
 
+Original datasets:
+
+- [Zenodo 11079764](https://zenodo.org/records/11079764)
+- [Quo Vadis Malware Emulation](https://www.kaggle.com/datasets/dmitrijstrizna/quo-vadis-malware-emulation)
+
 The repository keeps the compact, split-aware datasets used by the experiment:
 
 - `datasets_50k/quo_vadis/data/quo_vadis_main_50k.jsonl.gz`
@@ -77,4 +82,3 @@ figures are under `docs/`; the final rendered PDF is under `output/pdf/`.
 Folders named `official_code/` contain imported upstream implementations.
 Their included README and license files remain authoritative. Local adaptation
 scripts and experiment notes are stored alongside them.
-
