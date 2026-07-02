@@ -1,0 +1,13 @@
+speakeasy-emulator>=1.5.11
+torch>=1.13.1
+pandas>=1.4.2
+numpy>=1.22.4
+lief==0.12.3
+tqdm>=4.64.0
+nltk>=3.7
+matplotlib>=3.5.2
+seaborn>=0.11.2
+scikit-learn>=1.1.1
+sentencepiece
+orjson
+shap

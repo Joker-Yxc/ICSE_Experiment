@@ -1,0 +1,226 @@
+{
+  "dataset": "quo_vadis",
+  "family_inventory": [
+    {
+      "distinct_source_groups": 797,
+      "family": "ransomware",
+      "rows": 797
+    },
+    {
+      "distinct_source_groups": 258,
+      "family": "trojan",
+      "rows": 258
+    },
+    {
+      "distinct_source_groups": 169,
+      "family": "dropper",
+      "rows": 169
+    },
+    {
+      "distinct_source_groups": 160,
+      "family": "backdoor",
+      "rows": 160
+    },
+    {
+      "distinct_source_groups": 143,
+      "family": "coinminer",
+      "rows": 143
+    },
+    {
+      "distinct_source_groups": 96,
+      "family": "keylogger",
+      "rows": 97
+    },
+    {
+      "distinct_source_groups": 68,
+      "family": "rat",
+      "rows": 68
+    }
+  ],
+  "folds": {
+    "backdoor": {
+      "benign_test": 741,
+      "held_out_family": "backdoor",
+      "held_out_in_development": 0,
+      "held_out_test_malware": 20,
+      "output": "datasets_50k/quo_vadis/family_disjoint/quo_vadis_heldout_backdoor.jsonl.gz",
+      "output_sha256": "e2dfbcfa1c9cafd348c1261341dbb401d356a7e06848ae94bc4c157635adfa2f",
+      "split_counts": {
+        "test": 761,
+        "train": 4529,
+        "val": 972
+      },
+      "split_label_counts": {
+        "test:benign": 741,
+        "test:malware": 20,
+        "train:benign": 3462,
+        "train:malware": 1067,
+        "val:benign": 741,
+        "val:malware": 231
+      },
+      "test_rows_with_development_group": 0,
+      "test_rows_with_development_sequence": 0,
+      "unexpected_test_malware": 0
+    },
+    "coinminer": {
+      "benign_test": 741,
+      "held_out_family": "coinminer",
+      "held_out_in_development": 0,
+      "held_out_test_malware": 24,
+      "output": "datasets_50k/quo_vadis/family_disjoint/quo_vadis_heldout_coinminer.jsonl.gz",
+      "output_sha256": "3fb03e7fbdc2e4461490c717f49317816188f1c1cc507c9466ba65cee7229d20",
+      "split_counts": {
+        "test": 765,
+        "train": 4549,
+        "val": 973
+      },
+      "split_label_counts": {
+        "test:benign": 741,
+        "test:malware": 24,
+        "train:benign": 3462,
+        "train:malware": 1087,
+        "val:benign": 741,
+        "val:malware": 232
+      },
+      "test_rows_with_development_group": 0,
+      "test_rows_with_development_sequence": 0,
+      "unexpected_test_malware": 0
+    },
+    "dropper": {
+      "benign_test": 741,
+      "held_out_family": "dropper",
+      "held_out_in_development": 0,
+      "held_out_test_malware": 28,
+      "output": "datasets_50k/quo_vadis/family_disjoint/quo_vadis_heldout_dropper.jsonl.gz",
+      "output_sha256": "ca905a1a4ce2511356a41be2bd0a0286fb26cd2b4d99b68411ad383a40487c8b",
+      "split_counts": {
+        "test": 769,
+        "train": 4529,
+        "val": 971
+      },
+      "split_label_counts": {
+        "test:benign": 741,
+        "test:malware": 28,
+        "train:benign": 3462,
+        "train:malware": 1067,
+        "val:benign": 741,
+        "val:malware": 230
+      },
+      "test_rows_with_development_group": 0,
+      "test_rows_with_development_sequence": 0,
+      "unexpected_test_malware": 0
+    },
+    "keylogger": {
+      "benign_test": 741,
+      "held_out_family": "keylogger",
+      "held_out_in_development": 0,
+      "held_out_test_malware": 15,
+      "output": "datasets_50k/quo_vadis/family_disjoint/quo_vadis_heldout_keylogger.jsonl.gz",
+      "output_sha256": "9b042381aa7b8e55bb246381b0718ca90a3921ebc71655c45aa6b26b77d2ddb9",
+      "split_counts": {
+        "test": 756,
+        "train": 4576,
+        "val": 983
+      },
+      "split_label_counts": {
+        "test:benign": 741,
+        "test:malware": 15,
+        "train:benign": 3462,
+        "train:malware": 1114,
+        "val:benign": 741,
+        "val:malware": 242
+      },
+      "test_rows_with_development_group": 0,
+      "test_rows_with_development_sequence": 0,
+      "unexpected_test_malware": 0
+    },
+    "ransomware": {
+      "benign_test": 741,
+      "held_out_family": "ransomware",
+      "held_out_in_development": 0,
+      "held_out_test_malware": 116,
+      "output": "datasets_50k/quo_vadis/family_disjoint/quo_vadis_heldout_ransomware.jsonl.gz",
+      "output_sha256": "5c518e1d9e331d2c65e1a28d38cdbee532df67a6bb53556fd8a3ee8f86ebbde0",
+      "split_counts": {
+        "test": 857,
+        "train": 4089,
+        "val": 871
+      },
+      "split_label_counts": {
+        "test:benign": 741,
+        "test:malware": 116,
+        "train:benign": 3462,
+        "train:malware": 627,
+        "val:benign": 741,
+        "val:malware": 130
+      },
+      "test_rows_with_development_group": 0,
+      "test_rows_with_development_sequence": 0,
+      "unexpected_test_malware": 0
+    },
+    "rat": {
+      "benign_test": 741,
+      "held_out_family": "rat",
+      "held_out_in_development": 0,
+      "held_out_test_malware": 12,
+      "output": "datasets_50k/quo_vadis/family_disjoint/quo_vadis_heldout_rat.jsonl.gz",
+      "output_sha256": "8998f9115a54f61bb7010cdac5690328988696684fdfc2825570f859e3426ace",
+      "split_counts": {
+        "test": 753,
+        "train": 4601,
+        "val": 984
+      },
+      "split_label_counts": {
+        "test:benign": 741,
+        "test:malware": 12,
+        "train:benign": 3462,
+        "train:malware": 1139,
+        "val:benign": 741,
+        "val:malware": 243
+      },
+      "test_rows_with_development_group": 0,
+      "test_rows_with_development_sequence": 0,
+      "unexpected_test_malware": 0
+    },
+    "trojan": {
+      "benign_test": 741,
+      "held_out_family": "trojan",
+      "held_out_in_development": 0,
+      "held_out_test_malware": 39,
+      "output": "datasets_50k/quo_vadis/family_disjoint/quo_vadis_heldout_trojan.jsonl.gz",
+      "output_sha256": "9a4b40743a155a85f7b98556952e012cfae9365f1d413bc40b0ec3d592135917",
+      "split_counts": {
+        "test": 780,
+        "train": 4471,
+        "val": 951
+      },
+      "split_label_counts": {
+        "test:benign": 741,
+        "test:malware": 39,
+        "train:benign": 3462,
+        "train:malware": 1009,
+        "val:benign": 741,
+        "val:malware": 210
+      },
+      "test_rows_with_development_group": 0,
+      "test_rows_with_development_sequence": 0,
+      "unexpected_test_malware": 0
+    }
+  },
+  "selection": {
+    "explicit_families": [],
+    "min_distinct_source_groups": 1,
+    "selected_families": [
+      "ransomware",
+      "trojan",
+      "dropper",
+      "backdoor",
+      "coinminer",
+      "keylogger",
+      "rat"
+    ],
+    "top_n": 0
+  },
+  "source": "datasets_50k/quo_vadis/leakage_safe/quo_vadis_leakage_safe.jsonl.gz",
+  "source_sha256": "ea8d8837ad58e5d14e88cd01fbdf1c26e9f756986b43466eee94c9ba63780a22"
+}

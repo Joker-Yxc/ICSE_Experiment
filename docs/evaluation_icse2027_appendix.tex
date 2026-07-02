@@ -1,0 +1,42 @@
+% Supplementary evaluation material for the ICSE 2027 submission.
+
+\section{Additional Leakage-Safe Results}
+\label{sec:appendix-leakage-safe}
+
+Table~\ref{tab:appendix-rq1-audit} reports the complete Quo Vadis
+leakage-safe comparison.  All methods use the same exact-sequence- and
+source-group-disjoint partition.  EsCapturer-full preserves a useful ranking
+signal (AUC $0.9168{\pm}0.0121$), but its lower Recall reduces F1 and several
+frequency and graph baselines perform better.  We report this result to bound
+the record-level benchmark rather than claim superiority under the audit.
+
+\begin{table}[!t]
+\caption{Quo Vadis leakage-safe results (mean $\pm$ standard deviation over
+seeds 7/17/27).}
+\label{tab:appendix-rq1-audit}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrr}
+\hline
+Method & F1 & AUC \\
+\hline
+EsCapturer-full & $0.7667{\pm}0.0191$ & $0.9168{\pm}0.0121$ \\
+API-frequency RF & $0.8211{\pm}0.0050$ & $0.9487{\pm}0.0003$ \\
+API $n$-gram SVM & $0.8231{\pm}0.0000$ & $0.9559{\pm}0.0000$ \\
+GAT & $0.7833{\pm}0.0069$ & $0.9394{\pm}0.0065$ \\
+R-GCN & $0.7890{\pm}0.0049$ & $0.9395{\pm}0.0056$ \\
+\hline
+\end{tabular}
+\end{table}
+
+\paragraph{Failure analysis.}
+The audit test fold contains 741 benign and 254 malware records.  Across the
+three EsCapturer-full runs, 66--83 malware records are missed, whereas only
+30--35 benign records are false alarms.  Family-level Recall is consistently
+high for Ransomware (0.922--0.931) but substantially lower for RAT
+(0.250--0.333), Coinminer (0.250--0.542), and Trojan (0.410--0.615).  The
+missed malware traces also have a median length of 133--154 calls, compared
+with two calls for correctly detected malware.  These diagnostics suggest
+that reduced unique-family coverage and long unseen traces, rather than
+false-positive inflation, dominate the observed F1 loss.

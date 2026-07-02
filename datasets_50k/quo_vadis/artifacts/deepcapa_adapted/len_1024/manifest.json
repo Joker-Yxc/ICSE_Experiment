@@ -1,0 +1,27 @@
+{
+  "data_path": "/Users/yanxingchen/Desktop/\u5b9e\u9a8c/datasets_50k/quo_vadis/data/quo_vadis_main_50k.jsonl.gz",
+  "data_mtime_ns": 1781617479243786921,
+  "seed": 7,
+  "max_length": 1024,
+  "min_api_frequency": 1,
+  "limit_per_split": 0,
+  "split_policy": "existing split field used verbatim; no resplitting",
+  "split_counts": {
+    "train": 35000,
+    "val": 7500,
+    "test": 7500
+  },
+  "vocab_size": 2218,
+  "family_count": 7,
+  "capability_categories": [
+    "file",
+    "registry",
+    "process",
+    "memory",
+    "network",
+    "service",
+    "crypto",
+    "system",
+    "other"
+  ]
+}

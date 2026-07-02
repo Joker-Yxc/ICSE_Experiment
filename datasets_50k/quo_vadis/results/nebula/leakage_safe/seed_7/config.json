@@ -1,0 +1,14 @@
+{
+  "data_root": "datasets_50k/quo_vadis/data/raw",
+  "compact_data": "datasets_50k/quo_vadis/leakage_safe/quo_vadis_leakage_safe.jsonl.gz",
+  "out_dir": "datasets_50k/quo_vadis/results/nebula/leakage_safe/seed_7",
+  "max_attack_samples": 500,
+  "max_normal_samples": 500,
+  "epochs": 30,
+  "batch_size": 32,
+  "lr": 0.0003,
+  "seq_len": 512,
+  "seed": 7,
+  "device": "auto",
+  "rebuild_cache": false
+}

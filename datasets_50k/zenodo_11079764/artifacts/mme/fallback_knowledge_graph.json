@@ -1,0 +1,437 @@
+{
+  "type": "fallback_train_transition_cooccurrence",
+  "top_k_neighbors": 8,
+  "node_count": 54,
+  "edge_count": 83,
+  "resource_categories": [
+    "file",
+    "registry",
+    "process",
+    "thread",
+    "memory",
+    "network",
+    "service",
+    "security",
+    "sync",
+    "system",
+    "library",
+    "other"
+  ],
+  "edges": [
+    {
+      "source": "ntclose",
+      "target": "ntqueryvaluekey",
+      "count": 220448
+    },
+    {
+      "source": "ntclose",
+      "target": "ntopenkeyex",
+      "count": 192113
+    },
+    {
+      "source": "ntclose",
+      "target": "ntprotectvirtualmemory",
+      "count": 176763
+    },
+    {
+      "source": "ntclose",
+      "target": "ntopenfile",
+      "count": 104545
+    },
+    {
+      "source": "ntclose",
+      "target": "ntopenkey",
+      "count": 69695
+    },
+    {
+      "source": "ntclose",
+      "target": "ldrgetdllhandle",
+      "count": 46143
+    },
+    {
+      "source": "ntclose",
+      "target": "ntallocatevirtualmemory",
+      "count": 46134
+    },
+    {
+      "source": "ntclose",
+      "target": "ntquerykey",
+      "count": 44541
+    },
+    {
+      "source": "ntopensection",
+      "target": "ntqueryattributesfile",
+      "count": 24276
+    },
+    {
+      "source": "ntopensection",
+      "target": "ldrloaddll",
+      "count": 16629
+    },
+    {
+      "source": "ntcreatefile",
+      "target": "ntdeviceiocontrolfile",
+      "count": 4662
+    },
+    {
+      "source": "ntcreatefile",
+      "target": "ntcreatesection",
+      "count": 4576
+    },
+    {
+      "source": "ntopenfile",
+      "target": "ntqueryattributesfile",
+      "count": 50599
+    },
+    {
+      "source": "ntopenfile",
+      "target": "ntcreatesection",
+      "count": 36674
+    },
+    {
+      "source": "ntopenfile",
+      "target": "ntdelayexecution",
+      "count": 7604
+    },
+    {
+      "source": "ntreadvirtualmemory",
+      "target": "ntwritevirtualmemory",
+      "count": 1415
+    },
+    {
+      "source": "ntreadvirtualmemory",
+      "target": "ntopenprocess",
+      "count": 494
+    },
+    {
+      "source": "ntqueryinformationfile",
+      "target": "ntcreatefile",
+      "count": 47573
+    },
+    {
+      "source": "ntqueryinformationfile",
+      "target": "ntduplicateobject",
+      "count": 24285
+    },
+    {
+      "source": "ntqueryinformationfile",
+      "target": "ntfreevirtualmemory",
+      "count": 5901
+    },
+    {
+      "source": "ntqueryinformationfile",
+      "target": "ntcreatesection",
+      "count": 2688
+    },
+    {
+      "source": "ntreadfile",
+      "target": "ntwritefile",
+      "count": 14705
+    },
+    {
+      "source": "ntreadfile",
+      "target": "ntqueryinformationfile",
+      "count": 6941
+    },
+    {
+      "source": "ntreadfile",
+      "target": "ntdelayexecution",
+      "count": 2985
+    },
+    {
+      "source": "ntreadfile",
+      "target": "ntfreevirtualmemory",
+      "count": 964
+    },
+    {
+      "source": "ntmapviewofsection",
+      "target": "ntopensection",
+      "count": 70095
+    },
+    {
+      "source": "ntmapviewofsection",
+      "target": "ntcreatesection",
+      "count": 63769
+    },
+    {
+      "source": "ntmapviewofsection",
+      "target": "ntunmapviewofsection",
+      "count": 44804
+    },
+    {
+      "source": "ntopenkeyex",
+      "target": "ntquerykey",
+      "count": 223577
+    },
+    {
+      "source": "ntopenkeyex",
+      "target": "ntopenkey",
+      "count": 25041
+    },
+    {
+      "source": "ntopenkeyex",
+      "target": "ntenumeratevaluekey",
+      "count": 19514
+    },
+    {
+      "source": "ntopenkeyex",
+      "target": "ntallocatevirtualmemory",
+      "count": 18858
+    },
+    {
+      "source": "ntqueryvaluekey",
+      "target": "ntopenkeyex",
+      "count": 230723
+    },
+    {
+      "source": "ntqueryvaluekey",
+      "target": "ntopenkey",
+      "count": 94602
+    },
+    {
+      "source": "ntqueryvaluekey",
+      "target": "ntquerykey",
+      "count": 41688
+    },
+    {
+      "source": "ntqueryvaluekey",
+      "target": "ntallocatevirtualmemory",
+      "count": 16378
+    },
+    {
+      "source": "ntqueryvaluekey",
+      "target": "ntqueryattributesfile",
+      "count": 7262
+    },
+    {
+      "source": "ntqueryvaluekey",
+      "target": "ldrloaddll",
+      "count": 4160
+    },
+    {
+      "source": "ntopenkey",
+      "target": "ldrloaddll",
+      "count": 8835
+    },
+    {
+      "source": "ntopenkey",
+      "target": "ntopenfile",
+      "count": 6399
+    },
+    {
+      "source": "ntquerykey",
+      "target": "ntopenkey",
+      "count": 4859
+    },
+    {
+      "source": "ntquerykey",
+      "target": "ntcreatekey",
+      "count": 4216
+    },
+    {
+      "source": "ntquerykey",
+      "target": "ntenumeratekey",
+      "count": 3918
+    },
+    {
+      "source": "ntquerykey",
+      "target": "ntenumeratevaluekey",
+      "count": 3855
+    },
+    {
+      "source": "ntenumeratekey",
+      "target": "ntcreatemutant",
+      "count": 541
+    },
+    {
+      "source": "ntprotectvirtualmemory",
+      "target": "ntmapviewofsection",
+      "count": 95827
+    },
+    {
+      "source": "ntprotectvirtualmemory",
+      "target": "ntopensection",
+      "count": 51326
+    },
+    {
+      "source": "ntprotectvirtualmemory",
+      "target": "ntallocatevirtualmemory",
+      "count": 45436
+    },
+    {
+      "source": "ntprotectvirtualmemory",
+      "target": "ldrgetdllhandle",
+      "count": 35329
+    },
+    {
+      "source": "ntprotectvirtualmemory",
+      "target": "ntopenkeyex",
+      "count": 31218
+    },
+    {
+      "source": "ntprotectvirtualmemory",
+      "target": "ntquerysysteminformation",
+      "count": 19807
+    },
+    {
+      "source": "ntprotectvirtualmemory",
+      "target": "ntopenkey",
+      "count": 14661
+    },
+    {
+      "source": "ntqueryattributesfile",
+      "target": "ntcreatefile",
+      "count": 7689
+    },
+    {
+      "source": "ntallocatevirtualmemory",
+      "target": "ntfreevirtualmemory",
+      "count": 43732
+    },
+    {
+      "source": "ntallocatevirtualmemory",
+      "target": "ldrloaddll",
+      "count": 23376
+    },
+    {
+      "source": "ntallocatevirtualmemory",
+      "target": "ntopenkey",
+      "count": 16973
+    },
+    {
+      "source": "ntenumeratevaluekey",
+      "target": "ntopenkey",
+      "count": 2763
+    },
+    {
+      "source": "ntenumeratevaluekey",
+      "target": "ntopenfile",
+      "count": 1625
+    },
+    {
+      "source": "ntenumeratevaluekey",
+      "target": "ntmapviewofsection",
+      "count": 1062
+    },
+    {
+      "source": "ldrloaddll",
+      "target": "ntcreatefile",
+      "count": 3166
+    },
+    {
+      "source": "ldrgetdllhandle",
+      "target": "ntopenfile",
+      "count": 36820
+    },
+    {
+      "source": "ldrgetdllhandle",
+      "target": "ntallocatevirtualmemory",
+      "count": 18958
+    },
+    {
+      "source": "ldrgetdllhandle",
+      "target": "ntopenkeyex",
+      "count": 17030
+    },
+    {
+      "source": "ldrgetdllhandle",
+      "target": "ntqueryattributesfile",
+      "count": 8091
+    },
+    {
+      "source": "ldrgetdllhandle",
+      "target": "ntopenkey",
+      "count": 7826
+    },
+    {
+      "source": "ldrgetdllhandle",
+      "target": "ntquerysysteminformation",
+      "count": 7236
+    },
+    {
+      "source": "ntcreatekey",
+      "target": "ntsetvaluekey",
+      "count": 1879
+    },
+    {
+      "source": "ntdeviceiocontrolfile",
+      "target": "ntcreatethreadex",
+      "count": 1216
+    },
+    {
+      "source": "ntfreevirtualmemory",
+      "target": "ntopendirectoryobject",
+      "count": 2307
+    },
+    {
+      "source": "ntunmapviewofsection",
+      "target": "ntopenprocess",
+      "count": 2826
+    },
+    {
+      "source": "ntdelayexecution",
+      "target": "ntcreatefile",
+      "count": 7890
+    },
+    {
+      "source": "ntdelayexecution",
+      "target": "ntdeviceiocontrolfile",
+      "count": 4508
+    },
+    {
+      "source": "ntduplicateobject",
+      "target": "ntterminatethread",
+      "count": 1514
+    },
+    {
+      "source": "ntsetinformationfile",
+      "target": "ntwritefile",
+      "count": 56631
+    },
+    {
+      "source": "ntsetinformationfile",
+      "target": "ntqueryinformationfile",
+      "count": 21765
+    },
+    {
+      "source": "ntsetinformationfile",
+      "target": "ntreadfile",
+      "count": 20231
+    },
+    {
+      "source": "ntsetinformationfile",
+      "target": "ntcreatefile",
+      "count": 2413
+    },
+    {
+      "source": "ntsetinformationfile",
+      "target": "ntopenfile",
+      "count": 740
+    },
+    {
+      "source": "ntsetinformationfile",
+      "target": "ntfreevirtualmemory",
+      "count": 371
+    },
+    {
+      "source": "ntcreatethreadex",
+      "target": "ntresumethread",
+      "count": 3428
+    },
+    {
+      "source": "ntresumethread",
+      "target": "ntgetcontextthread",
+      "count": 1741
+    },
+    {
+      "source": "ntgetcontextthread",
+      "target": "ntsetcontextthread",
+      "count": 49
+    },
+    {
+      "source": "ntsuspendthread",
+      "target": "ntgetcontextthread",
+      "count": 1807
+    }
+  ]
+}

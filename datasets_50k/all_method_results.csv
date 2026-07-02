@@ -1,0 +1,17 @@
+dataset,method,status,implementation,epochs_run,test_accuracy,test_precision,test_recall,test_f1,test_auc,runtime_seconds
+quo_vadis,ours,ok,proposed,0,0.962133,0.970668,0.953067,0.961787,0.994659,47.822
+quo_vadis,nebula,ok,baseline,23,0.911333,0.891597,0.936533,0.913513,0.970795,7.027
+quo_vadis,api2vecpp,ok,baseline,22,0.926533,0.908348,0.948800,0.928134,0.982394,37.119
+quo_vadis,dawngnn_reimpl,ok,reimplementation,30,0.874133,0.840865,0.922933,0.879990,0.945802,169.531
+quo_vadis,gpt4_api_bert_cnn,ok,adapted,15,0.955200,0.972330,0.937067,0.954373,0.992626,329.915
+quo_vadis,deepcapa_adapted,ok,adapted_fallback,12,0.964933,0.969314,0.960267,0.964769,0.995253,1461.867
+quo_vadis,apili_adapted,ok,adapted,15,0.938667,0.937035,0.940533,0.938781,0.986944,1024.309
+quo_vadis,mme_textcnn_fallback,ok,fallback_reimplementation,12,0.938000,0.925188,0.953067,0.938920,0.989030,107.384
+zenodo_11079764,ours,ok,proposed,0,0.951200,0.943164,0.960267,0.951638,0.987396,21.492
+zenodo_11079764,nebula,ok,baseline,16,0.802533,0.836347,0.752267,0.792082,0.899433,6.427
+zenodo_11079764,api2vecpp,ok,baseline,30,0.905200,0.890717,0.923733,0.906925,0.961053,37.303
+zenodo_11079764,dawngnn_reimpl,ok,reimplementation,30,0.821467,0.895635,0.727733,0.803001,0.918856,91.818
+zenodo_11079764,gpt4_api_bert_cnn,ok,adapted,15,0.922000,0.913509,0.932267,0.922793,0.973656,307.492
+zenodo_11079764,deepcapa_adapted,ok,adapted_fallback,27,0.944667,0.936404,0.954133,0.945186,0.986299,1306.721
+zenodo_11079764,apili_adapted,ok,adapted,15,0.936000,0.925560,0.948267,0.936776,0.980621,998.620
+zenodo_11079764,mme_textcnn_fallback,ok,fallback_reimplementation,12,0.927867,0.918383,0.939200,0.928675,0.978941,106.476

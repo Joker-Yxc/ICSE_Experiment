@@ -1,0 +1,39 @@
+{
+  "dataset": "quo_vadis",
+  "data": "datasets_50k/quo_vadis/data/quo_vadis_main_50k.jsonl.gz",
+  "full_artifact": "datasets_50k/quo_vadis/results/rq1_repaired_balanced/full/seed_7",
+  "checkpoint": "datasets_50k/quo_vadis/results/rq1_repaired_balanced/full/seed_7/best_model.pt",
+  "cache": "datasets_50k/quo_vadis/results/rq1_repaired_balanced/full/seed_7/behavior_template_cache.json",
+  "seed": 7,
+  "split_counts": {
+    "train": 35000,
+    "val": 7500,
+    "test": 7500
+  },
+  "perturbation": "deletion",
+  "intensity": 0.1,
+  "threshold": 0.6566662851085141,
+  "threshold_source": "clean validation",
+  "checkpoint_source": "clean validation",
+  "objective": "bce",
+  "device": "cpu",
+  "training_performed": false,
+  "local_reordering_window": null,
+  "prediction_count": 7500,
+  "metrics": {
+    "accuracy": 0.9045333333333333,
+    "precision": 0.9653374233128834,
+    "recall": 0.8392,
+    "f1": 0.8978601997146933,
+    "auc": 0.9723737955555555,
+    "threshold": 0.6566662851085141,
+    "tp": 3147,
+    "fp": 113,
+    "fn": 603,
+    "tn": 3637,
+    "delta_f1": -0.06473980028530668,
+    "delta_auc": -0.021126204444444574
+  },
+  "preparation_and_inference_seconds": 78.73842050001258,
+  "inference_seconds": 73.83979583400651
+}

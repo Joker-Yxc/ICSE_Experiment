@@ -1,0 +1,45 @@
+{
+  "artifacts": {
+    "dataset_quality": "datasets_50k/zenodo_11079764/leakage_safe/dataset_quality.json",
+    "leakage_audit": "datasets_50k/zenodo_11079764/leakage_safe/leakage_audit.json"
+  },
+  "dataset": "zenodo_11079764",
+  "input": "datasets_50k/zenodo_11079764/data/zenodo_main_50k.jsonl.gz",
+  "input_sha256": "09f6d9ba20272e9135256826721bb1798a16a73162b0b89c6a441b8ec9d5b3ee",
+  "output": "datasets_50k/zenodo_11079764/leakage_safe/zenodo_11079764_leakage_safe.jsonl.gz",
+  "output_sha256": "9babcb98decec842f01344ac25acd148a57a16baa0705c35e7e86d1c82d033d8",
+  "ratios": {
+    "test": 0.15000000000000005,
+    "train": 0.7,
+    "val": 0.15
+  },
+  "seed": 7,
+  "split_assignment": {
+    "assigned_rows_by_label": {
+      "benign": {
+        "test": 3335,
+        "train": 15566,
+        "val": 3335
+      },
+      "malware": {
+        "test": 2497,
+        "train": 11652,
+        "val": 2497
+      }
+    },
+    "split_policy": "binary-label-balanced greedy assignment of atomic SHA groups",
+    "target_rows_by_label": {
+      "benign": {
+        "test": 3335.400000000001,
+        "train": 15565.199999999999,
+        "val": 3335.4
+      },
+      "malware": {
+        "test": 2496.900000000001,
+        "train": 11652.199999999999,
+        "val": 2496.9
+      }
+    },
+    "unique_source_groups": 2153
+  }
+}

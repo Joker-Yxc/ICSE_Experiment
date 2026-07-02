@@ -1,0 +1,20 @@
+{
+  "method": "ours",
+  "status": "ok",
+  "epochs_run": 0,
+  "best_val_f1": 0.9620490814000269,
+  "threshold": 0.595,
+  "runtime_seconds": 47.822,
+  "model": "llm_template_extraction_plus_tfidf_word_1_4_sgd_alpha_1e-6",
+  "semantic_extractor": "llm_template",
+  "val_accuracy": 0.9622666666666667,
+  "val_precision": 0.9676288103587807,
+  "val_recall": 0.9565333333333333,
+  "val_f1": 0.9620490814000269,
+  "val_auc": 0.9942306488888888,
+  "test_accuracy": 0.9621333333333333,
+  "test_precision": 0.9706681151548072,
+  "test_recall": 0.9530666666666666,
+  "test_f1": 0.9617868675995694,
+  "test_auc": 0.99465856
+}

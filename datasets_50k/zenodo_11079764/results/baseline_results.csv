@@ -1,0 +1,9 @@
+method,status,implementation,epochs_run,test_accuracy,test_precision,test_recall,test_f1,test_auc,runtime_seconds
+ours,ok,proposed,0,0.951200,0.943164,0.960267,0.951638,0.987396,21.492
+nebula,ok,baseline,16,0.802533,0.836347,0.752267,0.792082,0.899433,6.427
+api2vecpp,ok,baseline,30,0.905200,0.890717,0.923733,0.906925,0.961053,37.303
+dawngnn_reimpl,ok,reimplementation,30,0.821467,0.895635,0.727733,0.803001,0.918856,91.818
+gpt4_api_bert_cnn,ok,adapted,15,0.922000,0.913509,0.932267,0.922793,0.973656,307.492
+deepcapa_adapted,ok,adapted_fallback,27,0.944667,0.936404,0.954133,0.945186,0.986299,1306.721
+apili_adapted,ok,adapted,15,0.936000,0.925560,0.948267,0.936776,0.980621,998.620
+mme_textcnn_fallback,ok,fallback_reimplementation,12,0.927867,0.918383,0.939200,0.928675,0.978941,106.476

@@ -1,0 +1,861 @@
+{
+  "dataset": "zenodo_11079764",
+  "family_inventory": [
+    {
+      "distinct_source_groups": 188,
+      "family": "vobfus",
+      "rows": 2333
+    },
+    {
+      "distinct_source_groups": 178,
+      "family": "soltern",
+      "rows": 1438
+    },
+    {
+      "distinct_source_groups": 81,
+      "family": "eggnog",
+      "rows": 650
+    },
+    {
+      "distinct_source_groups": 45,
+      "family": "nevereg",
+      "rows": 370
+    },
+    {
+      "distinct_source_groups": 43,
+      "family": "prepscram",
+      "rows": 756
+    },
+    {
+      "distinct_source_groups": 41,
+      "family": "urelas",
+      "rows": 1930
+    },
+    {
+      "distinct_source_groups": 35,
+      "family": "vilsel",
+      "rows": 881
+    },
+    {
+      "distinct_source_groups": 32,
+      "family": "sfone",
+      "rows": 872
+    },
+    {
+      "distinct_source_groups": 22,
+      "family": "vflooder",
+      "rows": 581
+    },
+    {
+      "distinct_source_groups": 18,
+      "family": "ludbaruma",
+      "rows": 331
+    },
+    {
+      "distinct_source_groups": 16,
+      "family": "ganelp",
+      "rows": 280
+    },
+    {
+      "distinct_source_groups": 16,
+      "family": "tempedreve",
+      "rows": 421
+    },
+    {
+      "distinct_source_groups": 11,
+      "family": "mydoom",
+      "rows": 176
+    },
+    {
+      "distinct_source_groups": 11,
+      "family": "nitol",
+      "rows": 378
+    },
+    {
+      "distinct_source_groups": 10,
+      "family": "mira",
+      "rows": 191
+    },
+    {
+      "distinct_source_groups": 10,
+      "family": "moonlight",
+      "rows": 305
+    },
+    {
+      "distinct_source_groups": 10,
+      "family": "shifu",
+      "rows": 398
+    },
+    {
+      "distinct_source_groups": 8,
+      "family": "ridnu",
+      "rows": 138
+    },
+    {
+      "distinct_source_groups": 6,
+      "family": "bladabindi",
+      "rows": 98
+    },
+    {
+      "distinct_source_groups": 5,
+      "family": "allaple",
+      "rows": 243
+    },
+    {
+      "distinct_source_groups": 5,
+      "family": "buterat",
+      "rows": 149
+    },
+    {
+      "distinct_source_groups": 5,
+      "family": "gandcrab",
+      "rows": 140
+    },
+    {
+      "distinct_source_groups": 5,
+      "family": "kawaiiunicorn",
+      "rows": 32
+    },
+    {
+      "distinct_source_groups": 5,
+      "family": "tinba",
+      "rows": 173
+    },
+    {
+      "distinct_source_groups": 4,
+      "family": "amadey",
+      "rows": 89
+    },
+    {
+      "distinct_source_groups": 4,
+      "family": "rozena",
+      "rows": 57
+    },
+    {
+      "distinct_source_groups": 4,
+      "family": "sakularat",
+      "rows": 257
+    },
+    {
+      "distinct_source_groups": 3,
+      "family": "azorult",
+      "rows": 41
+    },
+    {
+      "distinct_source_groups": 3,
+      "family": "berbew",
+      "rows": 76
+    },
+    {
+      "distinct_source_groups": 3,
+      "family": "imperium",
+      "rows": 63
+    },
+    {
+      "distinct_source_groups": 3,
+      "family": "salgorea",
+      "rows": 45
+    },
+    {
+      "distinct_source_groups": 3,
+      "family": "simda",
+      "rows": 130
+    },
+    {
+      "distinct_source_groups": 3,
+      "family": "smokeloader",
+      "rows": 23
+    },
+    {
+      "distinct_source_groups": 3,
+      "family": "wabot",
+      "rows": 33
+    },
+    {
+      "distinct_source_groups": 3,
+      "family": "wormyfier",
+      "rows": 60
+    },
+    {
+      "distinct_source_groups": 2,
+      "family": "aar",
+      "rows": 34
+    },
+    {
+      "distinct_source_groups": 2,
+      "family": "balrok",
+      "rows": 71
+    },
+    {
+      "distinct_source_groups": 2,
+      "family": "bifrose",
+      "rows": 17
+    },
+    {
+      "distinct_source_groups": 2,
+      "family": "blackshades",
+      "rows": 28
+    },
+    {
+      "distinct_source_groups": 2,
+      "family": "dcrat",
+      "rows": 32
+    },
+    {
+      "distinct_source_groups": 2,
+      "family": "dorkbot",
+      "rows": 42
+    },
+    {
+      "distinct_source_groups": 2,
+      "family": "drolnux",
+      "rows": 77
+    },
+    {
+      "distinct_source_groups": 2,
+      "family": "fakefolder",
+      "rows": 17
+    },
+    {
+      "distinct_source_groups": 2,
+      "family": "gigex",
+      "rows": 83
+    },
+    {
+      "distinct_source_groups": 2,
+      "family": "gimemo",
+      "rows": 27
+    },
+    {
+      "distinct_source_groups": 2,
+      "family": "goldeneye",
+      "rows": 41
+    },
+    {
+      "distinct_source_groups": 2,
+      "family": "keydoor",
+      "rows": 119
+    },
+    {
+      "distinct_source_groups": 2,
+      "family": "knightlogger",
+      "rows": 35
+    },
+    {
+      "distinct_source_groups": 2,
+      "family": "lummastealer",
+      "rows": 21
+    },
+    {
+      "distinct_source_groups": 2,
+      "family": "mofksys",
+      "rows": 45
+    },
+    {
+      "distinct_source_groups": 2,
+      "family": "njratlime",
+      "rows": 54
+    },
+    {
+      "distinct_source_groups": 2,
+      "family": "nymaim",
+      "rows": 36
+    },
+    {
+      "distinct_source_groups": 2,
+      "family": "palevo",
+      "rows": 52
+    },
+    {
+      "distinct_source_groups": 2,
+      "family": "picsys",
+      "rows": 20
+    },
+    {
+      "distinct_source_groups": 2,
+      "family": "pluto",
+      "rows": 67
+    },
+    {
+      "distinct_source_groups": 2,
+      "family": "rotinom",
+      "rows": 35
+    },
+    {
+      "distinct_source_groups": 2,
+      "family": "socks",
+      "rows": 59
+    },
+    {
+      "distinct_source_groups": 2,
+      "family": "thundergrabber",
+      "rows": 80
+    },
+    {
+      "distinct_source_groups": 2,
+      "family": "trickbot",
+      "rows": 52
+    },
+    {
+      "distinct_source_groups": 2,
+      "family": "unruy",
+      "rows": 13
+    },
+    {
+      "distinct_source_groups": 2,
+      "family": "venom",
+      "rows": 20
+    },
+    {
+      "distinct_source_groups": 2,
+      "family": "zeus",
+      "rows": 25
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "bebloh",
+      "rows": 10
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "benjamin",
+      "rows": 20
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "betabot",
+      "rows": 8
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "bitrat",
+      "rows": 29
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "blackmoon",
+      "rows": 3
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "blitzedgrabber",
+      "rows": 13
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "bobax",
+      "rows": 44
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "bozok",
+      "rows": 10
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "bunitu",
+      "rows": 31
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "cosmicduke",
+      "rows": 21
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "crime24stealer",
+      "rows": 14
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "cybergate",
+      "rows": 14
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "dbatloader",
+      "rows": 6
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "dridexloader",
+      "rows": 15
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "dungcoi",
+      "rows": 7
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "eloshrat",
+      "rows": 21
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "emotet",
+      "rows": 15
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "esreverworm",
+      "rows": 33
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "fasong",
+      "rows": 17
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "futurax",
+      "rows": 28
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "greame",
+      "rows": 20
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "hupigon",
+      "rows": 15
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "kibokakrat",
+      "rows": 26
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "killmbr",
+      "rows": 11
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "krol",
+      "rows": 31
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "limebackdoor",
+      "rows": 17
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "lockbit",
+      "rows": 19
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "lucifertokengrabber",
+      "rows": 72
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "lunagrabber",
+      "rows": 65
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "malex",
+      "rows": 12
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "mercurialgrabber",
+      "rows": 10
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "moarider",
+      "rows": 26
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "moiststealer",
+      "rows": 17
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "mumador",
+      "rows": 33
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "nofear",
+      "rows": 48
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "phorpiex",
+      "rows": 21
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "pistolar",
+      "rows": 15
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "pony",
+      "rows": 8
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "pytelegramrat",
+      "rows": 21
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "quasarrat",
+      "rows": 10
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "ramsay",
+      "rows": 27
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "randolfminer",
+      "rows": 8
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "rbot",
+      "rows": 24
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "remcosrat",
+      "rows": 23
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "remindme",
+      "rows": 33
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "revengerat",
+      "rows": 22
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "scar",
+      "rows": 17
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "schwarzesonne",
+      "rows": 17
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "servstart",
+      "rows": 25
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "shample",
+      "rows": 18
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "shylock",
+      "rows": 3
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "stealerium",
+      "rows": 22
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "stormkitty",
+      "rows": 19
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "surubatworm",
+      "rows": 42
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "torr",
+      "rows": 43
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "turnedup",
+      "rows": 24
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "umbralstealer",
+      "rows": 27
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "vidarstealer",
+      "rows": 8
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "wanker",
+      "rows": 6
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "wenper",
+      "rows": 6
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "xredrat",
+      "rows": 14
+    },
+    {
+      "distinct_source_groups": 1,
+      "family": "zeusvariant",
+      "rows": 22
+    }
+  ],
+  "folds": {
+    "eggnog": {
+      "benign_test": 3335,
+      "held_out_family": "eggnog",
+      "held_out_in_development": 0,
+      "held_out_test_malware": 75,
+      "output": "datasets_50k/zenodo_11079764/family_disjoint/zenodo_11079764_heldout_eggnog.jsonl.gz",
+      "output_sha256": "3b63e9eda17f75eda8d59f1170c6282746d225b24513f4504b19f950cbc7dcf5",
+      "split_counts": {
+        "test": 3410,
+        "train": 26774,
+        "val": 5701
+      },
+      "split_label_counts": {
+        "test:benign": 3335,
+        "test:malware": 75,
+        "train:benign": 15566,
+        "train:malware": 11208,
+        "val:benign": 3335,
+        "val:malware": 2366
+      },
+      "test_rows_with_development_group": 0,
+      "test_rows_with_development_sequence": 0,
+      "unexpected_test_malware": 0
+    },
+    "nevereg": {
+      "benign_test": 3335,
+      "held_out_family": "nevereg",
+      "held_out_in_development": 0,
+      "held_out_test_malware": 60,
+      "output": "datasets_50k/zenodo_11079764/family_disjoint/zenodo_11079764_heldout_nevereg.jsonl.gz",
+      "output_sha256": "265af6a408b33c65a7570ea4d95d6a84f6c9178a8ff4a5ccf0d7e38c28a2bbf8",
+      "split_counts": {
+        "test": 3395,
+        "train": 26966,
+        "val": 5774
+      },
+      "split_label_counts": {
+        "test:benign": 3335,
+        "test:malware": 60,
+        "train:benign": 15566,
+        "train:malware": 11400,
+        "val:benign": 3335,
+        "val:malware": 2439
+      },
+      "test_rows_with_development_group": 0,
+      "test_rows_with_development_sequence": 0,
+      "unexpected_test_malware": 0
+    },
+    "prepscram": {
+      "benign_test": 3335,
+      "held_out_family": "prepscram",
+      "held_out_in_development": 0,
+      "held_out_test_malware": 122,
+      "output": "datasets_50k/zenodo_11079764/family_disjoint/zenodo_11079764_heldout_prepscram.jsonl.gz",
+      "output_sha256": "f1c10bc74e58104a28dd8e6b91273259c4118672d48cc369e47c6574fa2262bf",
+      "split_counts": {
+        "test": 3457,
+        "train": 26663,
+        "val": 5753
+      },
+      "split_label_counts": {
+        "test:benign": 3335,
+        "test:malware": 122,
+        "train:benign": 15566,
+        "train:malware": 11097,
+        "val:benign": 3335,
+        "val:malware": 2418
+      },
+      "test_rows_with_development_group": 0,
+      "test_rows_with_development_sequence": 0,
+      "unexpected_test_malware": 0
+    },
+    "sfone": {
+      "benign_test": 3335,
+      "held_out_family": "sfone",
+      "held_out_in_development": 0,
+      "held_out_test_malware": 50,
+      "output": "datasets_50k/zenodo_11079764/family_disjoint/zenodo_11079764_heldout_sfone.jsonl.gz",
+      "output_sha256": "6b52e7db118de68fdcfdc0063200235730a4ee01caae0dad99cf11bf30cbd957",
+      "split_counts": {
+        "test": 3385,
+        "train": 26557,
+        "val": 5671
+      },
+      "split_label_counts": {
+        "test:benign": 3335,
+        "test:malware": 50,
+        "train:benign": 15566,
+        "train:malware": 10991,
+        "val:benign": 3335,
+        "val:malware": 2336
+      },
+      "test_rows_with_development_group": 0,
+      "test_rows_with_development_sequence": 0,
+      "unexpected_test_malware": 0
+    },
+    "soltern": {
+      "benign_test": 3335,
+      "held_out_family": "soltern",
+      "held_out_in_development": 0,
+      "held_out_test_malware": 252,
+      "output": "datasets_50k/zenodo_11079764/family_disjoint/zenodo_11079764_heldout_soltern.jsonl.gz",
+      "output_sha256": "cedcd90a8c4caacc1b5dfd3a2a5e194c5f3a3fde4f58017dd90eaebbd72973e9",
+      "split_counts": {
+        "test": 3587,
+        "train": 26233,
+        "val": 5631
+      },
+      "split_label_counts": {
+        "test:benign": 3335,
+        "test:malware": 252,
+        "train:benign": 15566,
+        "train:malware": 10667,
+        "val:benign": 3335,
+        "val:malware": 2296
+      },
+      "test_rows_with_development_group": 0,
+      "test_rows_with_development_sequence": 0,
+      "unexpected_test_malware": 0
+    },
+    "urelas": {
+      "benign_test": 3335,
+      "held_out_family": "urelas",
+      "held_out_in_development": 0,
+      "held_out_test_malware": 340,
+      "output": "datasets_50k/zenodo_11079764/family_disjoint/zenodo_11079764_heldout_urelas.jsonl.gz",
+      "output_sha256": "f83aae77da97e1ca120198ce7f8b0af0a93ea8bbc487ca0b944d8917895d8a81",
+      "split_counts": {
+        "test": 3675,
+        "train": 25973,
+        "val": 5487
+      },
+      "split_label_counts": {
+        "test:benign": 3335,
+        "test:malware": 340,
+        "train:benign": 15566,
+        "train:malware": 10407,
+        "val:benign": 3335,
+        "val:malware": 2152
+      },
+      "test_rows_with_development_group": 0,
+      "test_rows_with_development_sequence": 0,
+      "unexpected_test_malware": 0
+    },
+    "vflooder": {
+      "benign_test": 3335,
+      "held_out_family": "vflooder",
+      "held_out_in_development": 0,
+      "held_out_test_malware": 71,
+      "output": "datasets_50k/zenodo_11079764/family_disjoint/zenodo_11079764_heldout_vflooder.jsonl.gz",
+      "output_sha256": "177e9ca2368fb53aa2c5fb872da295ed7d1a9732cabfddfd767a262d17c7ec48",
+      "split_counts": {
+        "test": 3406,
+        "train": 26784,
+        "val": 5756
+      },
+      "split_label_counts": {
+        "test:benign": 3335,
+        "test:malware": 71,
+        "train:benign": 15566,
+        "train:malware": 11218,
+        "val:benign": 3335,
+        "val:malware": 2421
+      },
+      "test_rows_with_development_group": 0,
+      "test_rows_with_development_sequence": 0,
+      "unexpected_test_malware": 0
+    },
+    "vilsel": {
+      "benign_test": 3335,
+      "held_out_family": "vilsel",
+      "held_out_in_development": 0,
+      "held_out_test_malware": 148,
+      "output": "datasets_50k/zenodo_11079764/family_disjoint/zenodo_11079764_heldout_vilsel.jsonl.gz",
+      "output_sha256": "43c3c2d4871590ee86a51aeb7b6441fcdaedee009d2c5832d410904cda83a26f",
+      "split_counts": {
+        "test": 3483,
+        "train": 26602,
+        "val": 5715
+      },
+      "split_label_counts": {
+        "test:benign": 3335,
+        "test:malware": 148,
+        "train:benign": 15566,
+        "train:malware": 11036,
+        "val:benign": 3335,
+        "val:malware": 2380
+      },
+      "test_rows_with_development_group": 0,
+      "test_rows_with_development_sequence": 0,
+      "unexpected_test_malware": 0
+    },
+    "vobfus": {
+      "benign_test": 3335,
+      "held_out_family": "vobfus",
+      "held_out_in_development": 0,
+      "held_out_test_malware": 396,
+      "output": "datasets_50k/zenodo_11079764/family_disjoint/zenodo_11079764_heldout_vobfus.jsonl.gz",
+      "output_sha256": "19c0efbb34d92ee4c84fb8a29fcf296f7196390446b2009f6dc135ed31e7d61c",
+      "split_counts": {
+        "test": 3731,
+        "train": 25596,
+        "val": 5517
+      },
+      "split_label_counts": {
+        "test:benign": 3335,
+        "test:malware": 396,
+        "train:benign": 15566,
+        "train:malware": 10030,
+        "val:benign": 3335,
+        "val:malware": 2182
+      },
+      "test_rows_with_development_group": 0,
+      "test_rows_with_development_sequence": 0,
+      "unexpected_test_malware": 0
+    }
+  },
+  "selection": {
+    "explicit_families": [],
+    "min_distinct_source_groups": 20,
+    "selected_families": [
+      "vobfus",
+      "soltern",
+      "eggnog",
+      "nevereg",
+      "prepscram",
+      "urelas",
+      "vilsel",
+      "sfone",
+      "vflooder"
+    ],
+    "top_n": 10
+  },
+  "source": "datasets_50k/zenodo_11079764/leakage_safe/zenodo_11079764_leakage_safe.jsonl.gz",
+  "source_sha256": "9babcb98decec842f01344ac25acd148a57a16baa0705c35e7e86d1c82d033d8"
+}

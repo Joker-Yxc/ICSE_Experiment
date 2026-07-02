@@ -1,0 +1,49 @@
+{
+  "total": 50000,
+  "label_counts": {
+    "benign": 25000,
+    "malware": 25000
+  },
+  "family_counts": {
+    "benign": 25000,
+    "backdoor": 5372,
+    "ransomware": 4955,
+    "trojan": 4107,
+    "coinminer": 3559,
+    "dropper": 3418,
+    "keylogger": 2357,
+    "rat": 1232
+  },
+  "split_counts": {
+    "test": 7500,
+    "train": 35000,
+    "val": 7500
+  },
+  "avg_seq_len": 195.621,
+  "max_seq_len": 5000,
+  "min_seq_len": 2,
+  "dataset": "quo_vadis_malware_emulation",
+  "subset": "main_50k",
+  "output": "datasets_50k/quo_vadis/data/quo_vadis_main_50k.jsonl.gz",
+  "requested": {
+    "benign": 25000,
+    "malware": 25000
+  },
+  "selection_notes": {
+    "candidate_counts": {
+      "benign": 32671,
+      "malware": 60030
+    },
+    "invalid_or_too_short_skipped": {
+      "benign": 329,
+      "malware": 79
+    },
+    "shortfall": {
+      "benign": 0,
+      "malware": 0
+    }
+  },
+  "seed": 7,
+  "split_policy": "stratified by binary label, 70/15/15",
+  "max_api_seq_len": 5000
+}

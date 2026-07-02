@@ -1,0 +1,62 @@
+[
+  {
+    "Dataset": "Zenodo 11079764 50k balanced",
+    "Variant": "Full",
+    "Accuracy": 0.9405,
+    "Precision": 0.9345,
+    "Recall": 0.9475,
+    "F1": 0.9409,
+    "AUC": 0.9791,
+    "Delta_F1": 0.0,
+    "Delta_AUC": 0.0,
+    "Best_epoch": 28,
+    "Val_F1": 0.948173546089938,
+    "Prediction_count": 7500,
+    "Artifact_path": "datasets_50k/zenodo_11079764/results/rq1_repaired_balanced/full/seed_7"
+  },
+  {
+    "Dataset": "Zenodo 11079764 50k balanced",
+    "Variant": "wo_semantic_elements",
+    "Accuracy": 0.9284,
+    "Precision": 0.9224296607941099,
+    "Recall": 0.9354666666666667,
+    "F1": 0.9289024228783265,
+    "AUC": 0.9768591644444444,
+    "Delta_F1": -0.011997577121673486,
+    "Delta_AUC": -0.002240835555555542,
+    "Best_epoch": 14,
+    "Val_F1": 0.9382422802850356,
+    "Prediction_count": 7500,
+    "Artifact_path": "datasets_50k/zenodo_11079764/results/rq3_balanced_ablation/wo_semantic_elements/seed_7"
+  },
+  {
+    "Dataset": "Zenodo 11079764 50k balanced",
+    "Variant": "wo_graph_view",
+    "Accuracy": 0.9277333333333333,
+    "Precision": 0.9234424498416051,
+    "Recall": 0.9328,
+    "F1": 0.9280976386309366,
+    "AUC": 0.9756141511111113,
+    "Delta_F1": -0.012802361369063431,
+    "Delta_AUC": -0.003485848888888698,
+    "Best_epoch": 30,
+    "Val_F1": 0.9332271339439798,
+    "Prediction_count": 7500,
+    "Artifact_path": "datasets_50k/zenodo_11079764/results/rq3_balanced_ablation/wo_graph_view/seed_7"
+  },
+  {
+    "Dataset": "Zenodo 11079764 50k balanced",
+    "Variant": "wo_interleaving_prior_in_gating",
+    "Accuracy": 0.9417333333333333,
+    "Precision": 0.9353482260183968,
+    "Recall": 0.9490666666666666,
+    "F1": 0.942157511581734,
+    "AUC": 0.9797083022222224,
+    "Delta_F1": 0.001257511581734039,
+    "Delta_AUC": 0.0006083022222224121,
+    "Best_epoch": 26,
+    "Val_F1": 0.9490630773291105,
+    "Prediction_count": 7500,
+    "Artifact_path": "datasets_50k/zenodo_11079764/results/rq3_balanced_ablation/wo_interleaving_prior_in_gating/seed_7"
+  }
+]

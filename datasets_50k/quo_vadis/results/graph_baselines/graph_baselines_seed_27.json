@@ -1,0 +1,102 @@
+[
+  {
+    "best_validation_f1": 0.8168421052631579,
+    "config": {
+      "batch_size": 128,
+      "data": "datasets_50k/quo_vadis/leakage_safe/quo_vadis_leakage_safe.jsonl.gz",
+      "device": "auto",
+      "embedding_dim": 64,
+      "epochs": 30,
+      "heads": 4,
+      "hidden_dim": 64,
+      "learning_rate": 0.001,
+      "limit_per_split": 0,
+      "max_length": 512,
+      "models": "gat,rgcn",
+      "out_dir": "datasets_50k/quo_vadis/results/graph_baselines",
+      "patience": 5,
+      "seed": 27
+    },
+    "data": "datasets_50k/quo_vadis/leakage_safe/quo_vadis_leakage_safe.jsonl.gz",
+    "data_sha256": "ea8d8837ad58e5d14e88cd01fbdf1c26e9f756986b43466eee94c9ba63780a22",
+    "epochs_run": 28,
+    "max_length": 512,
+    "method": "gat",
+    "parameter_count": 183425,
+    "runtime_seconds": 18.16059483299614,
+    "seed": 27,
+    "split_counts": {
+      "test": 995,
+      "train": 4647,
+      "val": 994
+    },
+    "test": {
+      "accuracy": 0.9035175879396985,
+      "auc": 0.9467733537356414,
+      "f1": 0.7903930131004366,
+      "precision": 0.8872549019607843,
+      "recall": 0.7125984251968503,
+      "threshold": 0.6381168788671494
+    },
+    "threshold": 0.6381168788671494,
+    "validation": {
+      "accuracy": 0.9124748490945674,
+      "auc": 0.9290084438825859,
+      "f1": 0.8168421052631579,
+      "precision": 0.8738738738738738,
+      "recall": 0.766798418972332,
+      "threshold": 0.6381168788671494
+    },
+    "vocabulary_count": 2666
+  },
+  {
+    "best_validation_f1": 0.8302658486707567,
+    "config": {
+      "batch_size": 128,
+      "data": "datasets_50k/quo_vadis/leakage_safe/quo_vadis_leakage_safe.jsonl.gz",
+      "device": "auto",
+      "embedding_dim": 64,
+      "epochs": 30,
+      "heads": 4,
+      "hidden_dim": 64,
+      "learning_rate": 0.001,
+      "limit_per_split": 0,
+      "max_length": 512,
+      "models": "gat,rgcn",
+      "out_dir": "datasets_50k/quo_vadis/results/graph_baselines",
+      "patience": 5,
+      "seed": 27
+    },
+    "data": "datasets_50k/quo_vadis/leakage_safe/quo_vadis_leakage_safe.jsonl.gz",
+    "data_sha256": "ea8d8837ad58e5d14e88cd01fbdf1c26e9f756986b43466eee94c9ba63780a22",
+    "epochs_run": 11,
+    "max_length": 512,
+    "method": "rgcn",
+    "parameter_count": 527361,
+    "runtime_seconds": 71.27722154199728,
+    "seed": 27,
+    "split_counts": {
+      "test": 995,
+      "train": 4647,
+      "val": 994
+    },
+    "test": {
+      "accuracy": 0.9005025125628141,
+      "auc": 0.9430754354086306,
+      "f1": 0.7880085653104925,
+      "precision": 0.863849765258216,
+      "recall": 0.7244094488188977,
+      "threshold": 0.42860077708959693
+    },
+    "threshold": 0.42860077708959693,
+    "validation": {
+      "accuracy": 0.9164989939637826,
+      "auc": 0.9501048150933734,
+      "f1": 0.8302658486707567,
+      "precision": 0.8601694915254238,
+      "recall": 0.8023715415019763,
+      "threshold": 0.42860077708959693
+    },
+    "vocabulary_count": 2666
+  }
+]

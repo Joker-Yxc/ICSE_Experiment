@@ -1,0 +1,49 @@
+{
+  "best_validation_f1": 0.9209621993127147,
+  "config": {
+    "batch_size": 128,
+    "data": "datasets_50k/zenodo_11079764/leakage_safe/zenodo_11079764_leakage_safe.jsonl.gz",
+    "device": "auto",
+    "embedding_dim": 64,
+    "epochs": 30,
+    "hidden_dim": 96,
+    "learning_rate": 0.001,
+    "limit_per_split": 0,
+    "max_length": 200,
+    "models": "api_frequency_lr,api_frequency_rf,api_ngram_lr,api_ngram_svm",
+    "out_dir": "datasets_50k/zenodo_11079764/results/standard_baselines",
+    "patience": 5,
+    "seed": 7
+  },
+  "data": "datasets_50k/zenodo_11079764/leakage_safe/zenodo_11079764_leakage_safe.jsonl.gz",
+  "data_sha256": "9babcb98decec842f01344ac25acd148a57a16baa0705c35e7e86d1c82d033d8",
+  "epochs_run": null,
+  "feature_or_vocabulary_count": 63024,
+  "max_length": 200,
+  "method": "api_ngram_svm",
+  "parameter_count": 63025,
+  "runtime_seconds": 9.24444583299919,
+  "seed": 7,
+  "split_counts": {
+    "test": 5832,
+    "train": 27218,
+    "val": 5832
+  },
+  "test": {
+    "accuracy": 0.9368998628257887,
+    "auc": 0.9786764207003424,
+    "f1": 0.9278714229713838,
+    "precision": 0.908637236084453,
+    "recall": 0.947937525030036,
+    "threshold": 0.5028598710604377
+  },
+  "threshold": 0.5028598710604377,
+  "validation": {
+    "accuracy": 0.9329561042524005,
+    "auc": 0.972199623055913,
+    "f1": 0.9209621993127147,
+    "precision": 0.929795918367347,
+    "recall": 0.9122947537044453,
+    "threshold": 0.5028598710604377
+  }
+}

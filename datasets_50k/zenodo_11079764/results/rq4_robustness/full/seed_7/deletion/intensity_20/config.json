@@ -1,0 +1,24 @@
+{
+  "dataset": "zenodo_11079764",
+  "data": "datasets_50k/zenodo_11079764/data/zenodo_main_50k.jsonl.gz",
+  "full_artifact": "datasets_50k/zenodo_11079764/results/rq1_repaired_balanced/full/seed_7",
+  "checkpoint": "datasets_50k/zenodo_11079764/results/rq1_repaired_balanced/full/seed_7/best_model.pt",
+  "cache": "datasets_50k/zenodo_11079764/results/rq1_repaired_balanced/full/seed_7/behavior_template_cache.json",
+  "seed": 7,
+  "split_counts": {
+    "train": 35000,
+    "val": 7500,
+    "test": 7500
+  },
+  "perturbation": "deletion",
+  "intensity": 0.2,
+  "threshold": 0.07000123194118146,
+  "threshold_source": "clean validation",
+  "checkpoint_source": "clean validation",
+  "objective": "bce",
+  "device": "cpu",
+  "training_performed": false,
+  "local_reordering_window": null,
+  "model_call_capacity": 208,
+  "capacity_selection": "uniform-cover"
+}

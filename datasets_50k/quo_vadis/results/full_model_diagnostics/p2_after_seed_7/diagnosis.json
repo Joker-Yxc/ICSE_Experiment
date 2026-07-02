@@ -1,0 +1,389 @@
+{
+  "config": {
+    "data": "datasets_50k/quo_vadis/leakage_safe/quo_vadis_leakage_safe.jsonl.gz",
+    "full_predictions": "datasets_50k/quo_vadis/results/full_model_repairs/p2_unit16_uniform_epoch_resample/full/seed_7/test_predictions.jsonl.gz",
+    "svm_predictions": "datasets_50k/quo_vadis/results/standard_baselines/api_ngram_svm/seed_7/test_predictions.jsonl.gz",
+    "max_seq_len": 512,
+    "max_units": 16,
+    "unit_selection": "uniform-cover"
+  },
+  "sample_count": 995,
+  "confusion_matrix": {
+    "full": {
+      "tn": 647,
+      "fp": 94,
+      "fn": 49,
+      "tp": 205
+    },
+    "svm": {
+      "tn": 699,
+      "fp": 42,
+      "fn": 47,
+      "tp": 207
+    }
+  },
+  "metrics": {
+    "full": {
+      "accuracy": 0.8562814070351759,
+      "precision": 0.68561872909699,
+      "recall": 0.8070866141732284,
+      "f1": 0.7414104882459313,
+      "auc": 0.9005865663553189,
+      "threshold": -2.5296132759656746,
+      "tp": 205,
+      "fp": 94,
+      "fn": 49,
+      "tn": 647
+    },
+    "svm": {
+      "accuracy": 0.9105527638190954,
+      "precision": 0.8313253012048193,
+      "recall": 0.8149606299212598,
+      "f1": 0.8230616302186878,
+      "auc": 0.9558932916786211,
+      "threshold": 0.5069861948188265
+    }
+  },
+  "family_recall": [
+    {
+      "family": "backdoor",
+      "method": "full",
+      "support": 20,
+      "malware_support": 20,
+      "correct": 16,
+      "accuracy": 0.8,
+      "recall": 0.8
+    },
+    {
+      "family": "backdoor",
+      "method": "svm",
+      "support": 20,
+      "malware_support": 20,
+      "correct": 16,
+      "accuracy": 0.8,
+      "recall": 0.8
+    },
+    {
+      "family": "benign",
+      "method": "full",
+      "support": 741,
+      "malware_support": 0,
+      "correct": 647,
+      "accuracy": 0.873144399460189,
+      "recall": null
+    },
+    {
+      "family": "benign",
+      "method": "svm",
+      "support": 741,
+      "malware_support": 0,
+      "correct": 699,
+      "accuracy": 0.9433198380566802,
+      "recall": null
+    },
+    {
+      "family": "coinminer",
+      "method": "full",
+      "support": 24,
+      "malware_support": 24,
+      "correct": 15,
+      "accuracy": 0.625,
+      "recall": 0.625
+    },
+    {
+      "family": "coinminer",
+      "method": "svm",
+      "support": 24,
+      "malware_support": 24,
+      "correct": 17,
+      "accuracy": 0.7083333333333334,
+      "recall": 0.7083333333333334
+    },
+    {
+      "family": "dropper",
+      "method": "full",
+      "support": 28,
+      "malware_support": 28,
+      "correct": 20,
+      "accuracy": 0.7142857142857143,
+      "recall": 0.7142857142857143
+    },
+    {
+      "family": "dropper",
+      "method": "svm",
+      "support": 28,
+      "malware_support": 28,
+      "correct": 19,
+      "accuracy": 0.6785714285714286,
+      "recall": 0.6785714285714286
+    },
+    {
+      "family": "keylogger",
+      "method": "full",
+      "support": 15,
+      "malware_support": 15,
+      "correct": 11,
+      "accuracy": 0.7333333333333333,
+      "recall": 0.7333333333333333
+    },
+    {
+      "family": "keylogger",
+      "method": "svm",
+      "support": 15,
+      "malware_support": 15,
+      "correct": 9,
+      "accuracy": 0.6,
+      "recall": 0.6
+    },
+    {
+      "family": "ransomware",
+      "method": "full",
+      "support": 116,
+      "malware_support": 116,
+      "correct": 109,
+      "accuracy": 0.9396551724137931,
+      "recall": 0.9396551724137931
+    },
+    {
+      "family": "ransomware",
+      "method": "svm",
+      "support": 116,
+      "malware_support": 116,
+      "correct": 109,
+      "accuracy": 0.9396551724137931,
+      "recall": 0.9396551724137931
+    },
+    {
+      "family": "rat",
+      "method": "full",
+      "support": 12,
+      "malware_support": 12,
+      "correct": 6,
+      "accuracy": 0.5,
+      "recall": 0.5
+    },
+    {
+      "family": "rat",
+      "method": "svm",
+      "support": 12,
+      "malware_support": 12,
+      "correct": 5,
+      "accuracy": 0.4166666666666667,
+      "recall": 0.4166666666666667
+    },
+    {
+      "family": "trojan",
+      "method": "full",
+      "support": 39,
+      "malware_support": 39,
+      "correct": 28,
+      "accuracy": 0.717948717948718,
+      "recall": 0.717948717948718
+    },
+    {
+      "family": "trojan",
+      "method": "svm",
+      "support": 39,
+      "malware_support": 39,
+      "correct": 32,
+      "accuracy": 0.8205128205128205,
+      "recall": 0.8205128205128205
+    }
+  ],
+  "paired_error_counts": {
+    "both_right": 823,
+    "both_wrong": 60,
+    "full_wrong_svm_right": 83,
+    "full_right_svm_wrong": 29
+  },
+  "retained_call_coverage": {
+    "count": 995,
+    "mean": 1.0,
+    "std": 0.0,
+    "min": 1.0,
+    "q1": 1.0,
+    "median": 1.0,
+    "q3": 1.0,
+    "max": 1.0
+  },
+  "unit_count": {
+    "count": 995,
+    "mean": 13.236180904522612,
+    "std": 5.108028707222212,
+    "min": 2.0,
+    "q1": 14.0,
+    "median": 16.0,
+    "q3": 16.0,
+    "max": 16.0
+  },
+  "graph_density": {
+    "count": 995,
+    "mean": 0.16113743561462582,
+    "std": 0.15964208271382396,
+    "min": 0.0,
+    "q1": 0.0,
+    "median": 0.1472972972972973,
+    "q3": 0.2015367824907085,
+    "max": 0.8947368421052632
+  },
+  "by_label": {
+    "benign": {
+      "retained_call_coverage": {
+        "count": 741,
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "q1": 1.0,
+        "median": 1.0,
+        "q3": 1.0,
+        "max": 1.0
+      },
+      "unit_count": {
+        "count": 741,
+        "mean": 14.585695006747638,
+        "std": 3.5189497357892887,
+        "min": 2.0,
+        "q1": 16.0,
+        "median": 16.0,
+        "q3": 16.0,
+        "max": 16.0
+      },
+      "graph_density": {
+        "count": 741,
+        "mean": 0.17183109090391602,
+        "std": 0.1456405469045383,
+        "min": 0.0,
+        "q1": 0.12529550827423167,
+        "median": 0.15244596131968147,
+        "q3": 0.20930232558139536,
+        "max": 0.8947368421052632
+      }
+    },
+    "malware": {
+      "retained_call_coverage": {
+        "count": 254,
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "q1": 1.0,
+        "median": 1.0,
+        "q3": 1.0,
+        "max": 1.0
+      },
+      "unit_count": {
+        "count": 254,
+        "mean": 9.299212598425196,
+        "std": 6.728497346759757,
+        "min": 2.0,
+        "q1": 2.0,
+        "median": 11.5,
+        "q3": 16.0,
+        "max": 16.0
+      },
+      "graph_density": {
+        "count": 254,
+        "mean": 0.12994059085335002,
+        "std": 0.19143830013835178,
+        "min": 0.0,
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.17514518650882288,
+        "max": 0.7435897435897436
+      }
+    }
+  },
+  "score_distribution": {
+    "full": {
+      "threshold": -2.5296132759656746,
+      "overall": {
+        "count": 995,
+        "mean": -4.106850861585404,
+        "std": 2.9713988975172203,
+        "min": -10.596653938293457,
+        "q1": -6.678198575973511,
+        "median": -4.891349792480469,
+        "q3": -0.00021247332188067958,
+        "max": -2.6787289243657142e-05
+      },
+      "benign": {
+        "count": 741,
+        "mean": -5.200890713939976,
+        "std": 2.415941874419123,
+        "min": -10.596653938293457,
+        "q1": -6.981159687042236,
+        "median": -6.027883529663086,
+        "q3": -3.693070888519287,
+        "max": -2.6787289243657142e-05
+      },
+      "malware": {
+        "count": 254,
+        "mean": -0.915183418299034,
+        "std": 1.9699141138360725,
+        "min": -9.123757362365723,
+        "q1": -0.0011291597329545766,
+        "median": -6.356719313771464e-05,
+        "q3": -5.1803434871544596e-05,
+        "max": -3.591583663364872e-05
+      },
+      "margin_from_threshold": {
+        "count": 995,
+        "mean": -1.5772375856197292,
+        "std": 2.9713988975172203,
+        "min": -8.067040662327782,
+        "q1": -4.148585300007836,
+        "median": -2.361736516514794,
+        "q3": 2.529400802643794,
+        "max": 2.529586488676431
+      }
+    },
+    "svm": {
+      "threshold": 0.5069861948188265,
+      "overall": {
+        "count": 995,
+        "mean": 0.3981954750032923,
+        "std": 0.17924780086263192,
+        "min": 0.14607923332405662,
+        "q1": 0.26349233434861985,
+        "median": 0.32586700489571935,
+        "q3": 0.5060225331269783,
+        "max": 0.8290583482395731
+      },
+      "benign": {
+        "count": 741,
+        "mean": 0.3150082008259099,
+        "std": 0.10058673706367928,
+        "min": 0.14607923332405662,
+        "q1": 0.24589223437524504,
+        "median": 0.29180810284480185,
+        "q3": 0.3653893750968327,
+        "max": 0.8290583482395731
+      },
+      "malware": {
+        "count": 254,
+        "mean": 0.6408796095128995,
+        "std": 0.1313860878427077,
+        "min": 0.2411542858460616,
+        "q1": 0.5592500261078215,
+        "median": 0.7015926258434126,
+        "q3": 0.7433601781635679,
+        "max": 0.7999863105352483
+      },
+      "margin_from_threshold": {
+        "count": 995,
+        "mean": -0.10879071981553422,
+        "std": 0.17924780086263192,
+        "min": -0.36090696149476986,
+        "q1": -0.24349386047020663,
+        "median": -0.1811191899231071,
+        "q3": -0.0009636616918481389,
+        "max": 0.3220721534207467
+      }
+    }
+  },
+  "artifacts": {
+    "sample_diagnostics": "sample_diagnostics.csv",
+    "family_recall": "family_recall.csv",
+    "paired_errors": "paired_errors.csv",
+    "representative_errors": "representative_errors.csv"
+  }
+}

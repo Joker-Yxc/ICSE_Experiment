@@ -1,0 +1,18 @@
+{
+  "method": "nebula",
+  "status": "ok",
+  "epochs_run": 16,
+  "best_val_f1": 0.7871188372755771,
+  "threshold": 0.5,
+  "runtime_seconds": 6.427,
+  "val_accuracy": 0.8008,
+  "val_precision": 0.8451652386780906,
+  "val_recall": 0.7365333333333334,
+  "val_f1": 0.7871188372755771,
+  "val_auc": 0.9024940088888889,
+  "test_accuracy": 0.8025333333333333,
+  "test_precision": 0.836347465164542,
+  "test_recall": 0.7522666666666666,
+  "test_f1": 0.7920819879264355,
+  "test_auc": 0.8994331377777778
+}

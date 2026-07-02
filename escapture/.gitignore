@@ -1,0 +1,51 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Datasets and generated artifacts
+data/raw/
+data/processed/
+datasets/
+checkpoints/
+artifacts/
+results/
+runs/
+outputs/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+*_cache.json
+*_vocab.json
+*_intentions.json
+
+# Logs and archives
+*.log
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.xz
+

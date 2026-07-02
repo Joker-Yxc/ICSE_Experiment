@@ -1,0 +1,203 @@
+{
+  "method": "mme_textcnn_fallback",
+  "status": "ok",
+  "dataset": "quo_vadis",
+  "seed": 7,
+  "split_policy": "used existing split field without resplitting",
+  "input": "api_seq",
+  "official_code_commit": "8a055f0",
+  "official_training_code_available": false,
+  "knowledge_graph": "fallback training-only API transition/co-occurrence graph",
+  "resource_encoding": "fallback API name/category encoding",
+  "model": "MME-TextCNN-style multitask classifier",
+  "contrastive_learning": "supervised contrastive auxiliary loss",
+  "epochs_run": 12,
+  "best_epoch": 11,
+  "best_val_f1": 0.937524557956778,
+  "threshold": 0.4699999999999999,
+  "val": {
+    "accuracy": 0.9364,
+    "precision": 0.9212355212355212,
+    "recall": 0.9544,
+    "f1": 0.937524557956778,
+    "auc": 0.9885744711111112
+  },
+  "test": {
+    "accuracy": 0.938,
+    "precision": 0.9251876779704893,
+    "recall": 0.9530666666666666,
+    "f1": 0.9389202679626953,
+    "auc": 0.9890301866666666
+  },
+  "family_val": {
+    "sample_count": 3750,
+    "accuracy": 0.8328,
+    "macro_precision": 0.8052046018799591,
+    "macro_recall": 0.7763956192119961,
+    "macro_f1": 0.7778123056294264,
+    "macro_auc_ovr": 0.9820618033024792,
+    "auc_class_count": 7
+  },
+  "family_test": {
+    "sample_count": 3750,
+    "accuracy": 0.8458666666666667,
+    "macro_precision": 0.8235323761487416,
+    "macro_recall": 0.7913249092429494,
+    "macro_f1": 0.7968261101749319,
+    "macro_auc_ovr": 0.9827942659133847,
+    "auc_class_count": 7
+  },
+  "runtime_seconds": 107.3844690322876,
+  "config": {
+    "dataset": "quo_vadis",
+    "data_path": "/Users/yanxingchen/Desktop/\u5b9e\u9a8c/datasets_50k/quo_vadis/data/quo_vadis_main_50k.jsonl.gz",
+    "output_path": null,
+    "cache_dir": "/Users/yanxingchen/Desktop/\u5b9e\u9a8c/datasets_50k/quo_vadis/artifacts/mme",
+    "log_path": null,
+    "seed": 7,
+    "max_length": 256,
+    "min_api_frequency": 2,
+    "embedding_dim": 64,
+    "filters": 96,
+    "batch_size": 256,
+    "epochs": 12,
+    "patience": 3,
+    "learning_rate": 0.001,
+    "contrastive_weight": 0.05,
+    "family_weight": 0.15,
+    "temperature": 0.2,
+    "top_k_neighbors": 8,
+    "device": "auto",
+    "num_workers": 0,
+    "rebuild_cache": true,
+    "limit_per_split": 0,
+    "skip_csv": false
+  },
+  "cache_manifest": {
+    "data_path": "/Users/yanxingchen/Desktop/\u5b9e\u9a8c/datasets_50k/quo_vadis/data/quo_vadis_main_50k.jsonl.gz",
+    "data_mtime_ns": 1781617479243786921,
+    "max_length": 256,
+    "min_api_frequency": 2,
+    "seed": 7,
+    "limit_per_split": 0,
+    "split_counts": {
+      "train": 35000,
+      "val": 7500,
+      "test": 7500
+    },
+    "vocab_size": 1522,
+    "family_count": 7,
+    "knowledge_graph": "fallback_knowledge_graph.json",
+    "resource_encoding": "API name/category deterministic hashed encoding"
+  },
+  "training_history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.8317412068367004,
+      "accuracy": 0.9058666666666667,
+      "precision": 0.9251396648044693,
+      "recall": 0.8832,
+      "f1": 0.9036834924965894,
+      "auc": 0.9676132622222222
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.6119069872447422,
+      "accuracy": 0.9224,
+      "precision": 0.9278768233387358,
+      "recall": 0.916,
+      "f1": 0.9219001610305958,
+      "auc": 0.978175111111111
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.5497246673583984,
+      "accuracy": 0.9277333333333333,
+      "precision": 0.9394520547945205,
+      "recall": 0.9144,
+      "f1": 0.9267567567567567,
+      "auc": 0.9819206755555555
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.5210819624287741,
+      "accuracy": 0.9301333333333334,
+      "precision": 0.9407103825136612,
+      "recall": 0.9181333333333334,
+      "f1": 0.9292847503373819,
+      "auc": 0.9841153066666667
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.5003176430770329,
+      "accuracy": 0.9325333333333333,
+      "precision": 0.9350858369098712,
+      "recall": 0.9296,
+      "f1": 0.9323348488900776,
+      "auc": 0.98560352
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.48698096027374266,
+      "accuracy": 0.9301333333333334,
+      "precision": 0.9167958656330749,
+      "recall": 0.9461333333333334,
+      "f1": 0.9312335958005249,
+      "auc": 0.9858253866666665
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.47661094797679354,
+      "accuracy": 0.934,
+      "precision": 0.9320414122644014,
+      "recall": 0.9362666666666667,
+      "f1": 0.93414926167354,
+      "auc": 0.9872436266666668
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.46861819794518605,
+      "accuracy": 0.9330666666666667,
+      "precision": 0.9237995824634656,
+      "recall": 0.944,
+      "f1": 0.933790556581377,
+      "auc": 0.98717024
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.4640374298708779,
+      "accuracy": 0.932,
+      "precision": 0.9336188436830836,
+      "recall": 0.9301333333333334,
+      "f1": 0.9318728292813251,
+      "auc": 0.9873635200000002
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.45830317435945783,
+      "accuracy": 0.9377333333333333,
+      "precision": 0.9413820919602044,
+      "recall": 0.9336,
+      "f1": 0.9374748962377828,
+      "auc": 0.9884500266666667
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.45466697541645595,
+      "accuracy": 0.9364,
+      "precision": 0.9212355212355212,
+      "recall": 0.9544,
+      "f1": 0.937524557956778,
+      "auc": 0.9885744711111112
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.4513023551940918,
+      "accuracy": 0.9382666666666667,
+      "precision": 0.9526301294409254,
+      "recall": 0.9224,
+      "f1": 0.9372713724427585,
+      "auc": 0.9885296
+    }
+  ]
+}

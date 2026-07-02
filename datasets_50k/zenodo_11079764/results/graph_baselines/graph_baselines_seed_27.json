@@ -1,0 +1,102 @@
+[
+  {
+    "best_validation_f1": 0.9080250656963816,
+    "config": {
+      "batch_size": 128,
+      "data": "datasets_50k/zenodo_11079764/leakage_safe/zenodo_11079764_leakage_safe.jsonl.gz",
+      "device": "auto",
+      "embedding_dim": 64,
+      "epochs": 30,
+      "heads": 4,
+      "hidden_dim": 64,
+      "learning_rate": 0.001,
+      "limit_per_split": 0,
+      "max_length": 200,
+      "models": "gat,rgcn",
+      "out_dir": "datasets_50k/zenodo_11079764/results/graph_baselines",
+      "patience": 5,
+      "seed": 27
+    },
+    "data": "datasets_50k/zenodo_11079764/leakage_safe/zenodo_11079764_leakage_safe.jsonl.gz",
+    "data_sha256": "9babcb98decec842f01344ac25acd148a57a16baa0705c35e7e86d1c82d033d8",
+    "epochs_run": 30,
+    "max_length": 200,
+    "method": "gat",
+    "parameter_count": 16257,
+    "runtime_seconds": 67.99331554200035,
+    "seed": 27,
+    "split_counts": {
+      "test": 5832,
+      "train": 27218,
+      "val": 5832
+    },
+    "test": {
+      "accuracy": 0.9163237311385459,
+      "auc": 0.9712550412819222,
+      "f1": 0.9053529868114818,
+      "precision": 0.877773599097405,
+      "recall": 0.934721665999199,
+      "threshold": 0.46402685463428656
+    },
+    "threshold": 0.46402685463428656,
+    "validation": {
+      "accuracy": 0.9219821673525377,
+      "auc": 0.9625049309546269,
+      "f1": 0.9080250656963816,
+      "precision": 0.916734693877551,
+      "recall": 0.8994793752503003,
+      "threshold": 0.46402685463428656
+    },
+    "vocabulary_count": 54
+  },
+  {
+    "best_validation_f1": 0.9116636345259753,
+    "config": {
+      "batch_size": 128,
+      "data": "datasets_50k/zenodo_11079764/leakage_safe/zenodo_11079764_leakage_safe.jsonl.gz",
+      "device": "auto",
+      "embedding_dim": 64,
+      "epochs": 30,
+      "heads": 4,
+      "hidden_dim": 64,
+      "learning_rate": 0.001,
+      "limit_per_split": 0,
+      "max_length": 200,
+      "models": "gat,rgcn",
+      "out_dir": "datasets_50k/zenodo_11079764/results/graph_baselines",
+      "patience": 5,
+      "seed": 27
+    },
+    "data": "datasets_50k/zenodo_11079764/leakage_safe/zenodo_11079764_leakage_safe.jsonl.gz",
+    "data_sha256": "9babcb98decec842f01344ac25acd148a57a16baa0705c35e7e86d1c82d033d8",
+    "epochs_run": 17,
+    "max_length": 200,
+    "method": "rgcn",
+    "parameter_count": 360193,
+    "runtime_seconds": 439.03894145897357,
+    "seed": 27,
+    "split_counts": {
+      "test": 5832,
+      "train": 27218,
+      "val": 5832
+    },
+    "test": {
+      "accuracy": 0.9355281207133059,
+      "auc": 0.9774455583581858,
+      "f1": 0.9263034104272834,
+      "precision": 0.9071017274472168,
+      "recall": 0.9463356027232679,
+      "threshold": 0.4258350402116779
+    },
+    "threshold": 0.4258350402116779,
+    "validation": {
+      "accuracy": 0.9250685871056241,
+      "auc": 0.9643837672673475,
+      "f1": 0.9116636345259753,
+      "precision": 0.9204081632653062,
+      "recall": 0.9030837004405287,
+      "threshold": 0.4258350402116779
+    },
+    "vocabulary_count": 54
+  }
+]

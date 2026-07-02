@@ -1,0 +1,35 @@
+{
+  "method": "dawngnn_reimpl",
+  "status": "ok",
+  "implementation": "API transition graph + documentation-style semantic node embeddings + 2-layer GAT",
+  "dataset": "quo_vadis",
+  "split_policy": "used existing split field without resplitting",
+  "seed": 7,
+  "split_counts": {
+    "train": 35000,
+    "val": 7500,
+    "test": 7500
+  },
+  "epochs_run": 30,
+  "best_epoch": 2,
+  "best_val_f1": 0.8730540437919251,
+  "threshold": 0.5,
+  "runtime_seconds": 169.531,
+  "val_accuracy": 0.8662666666666666,
+  "val_precision": 0.8308841243073958,
+  "val_recall": 0.9197333333333333,
+  "val_f1": 0.8730540437919251,
+  "val_auc": 0.9422530488888888,
+  "test_accuracy": 0.8741333333333333,
+  "test_precision": 0.8408649173955296,
+  "test_recall": 0.9229333333333334,
+  "test_f1": 0.8799898296465802,
+  "test_auc": 0.9458021333333334,
+  "confusion_matrix": {
+    "tp": 3461,
+    "fp": 655,
+    "fn": 289,
+    "tn": 3095
+  },
+  "raw_result": "datasets_50k/quo_vadis/artifacts/dawngnn_reimpl/raw_result.json"
+}

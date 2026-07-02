@@ -1,0 +1,229 @@
+{
+  "method": "escapture_dual_view",
+  "variant": "full",
+  "held_out_family": null,
+  "seed": 7,
+  "status": "ok",
+  "data": "datasets_50k/quo_vadis/leakage_safe/quo_vadis_leakage_safe.jsonl.gz",
+  "split_policy": "existing compact JSONL.GZ split field used verbatim",
+  "split_counts": {
+    "train": 4647,
+    "val": 994,
+    "test": 995
+  },
+  "config": {
+    "semantic_mode": "llm_template",
+    "use_sequence_view": true,
+    "use_graph_view": true,
+    "prior_mode": "real",
+    "hard_switching": false,
+    "use_gating_prior": true,
+    "use_structural_bias": true,
+    "use_relation_features": true,
+    "weighting_mode": "softmax",
+    "lambda_pref": 0.001,
+    "beta": 0.1,
+    "gating_temperature": 2.0,
+    "max_units": 16,
+    "unit_selection": "uniform-cover",
+    "benign_sampling": "epoch-resample"
+  },
+  "hardware": {
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "python": "3.12.13",
+    "torch": "2.12.0",
+    "device": "cpu",
+    "cpu": "arm"
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.9277857711961293,
+      "preference_loss": 0.7663108082020097,
+      "val_f1": 0.6480938416422287,
+      "threshold": -0.04084047727209139,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.4622654733730933,
+      "preference_loss": 0.9467236145142872,
+      "val_f1": 0.6918918918918919,
+      "threshold": -0.15033972465413825,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.320228420318515,
+      "preference_loss": 0.8815655416272611,
+      "val_f1": 0.7184115523465704,
+      "threshold": -0.08561604714020987,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.22147231799489,
+      "preference_loss": 0.7251604845901227,
+      "val_f1": 0.7095652173913043,
+      "threshold": -0.042939035442154605,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.081610510247804,
+      "preference_loss": 0.6912346161527485,
+      "val_f1": 0.7279151943462897,
+      "threshold": -0.16937332883477296,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.9537488497468639,
+      "preference_loss": 0.6877070853281131,
+      "val_f1": 0.7175324675324676,
+      "threshold": -0.2761743448271101,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.8923120600036242,
+      "preference_loss": 0.630944136532313,
+      "val_f1": 0.7291666666666666,
+      "threshold": -0.03452210186961224,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.8478548522457188,
+      "preference_loss": 0.5937675058945007,
+      "val_f1": 0.7228915662650602,
+      "threshold": -0.03149649568253743,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.7465889621709267,
+      "preference_loss": 0.5570733546522021,
+      "val_f1": 0.7266666666666667,
+      "threshold": -0.028453668197204962,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.69576084183978,
+      "preference_loss": 0.5140945094124835,
+      "val_f1": 0.7047619047619048,
+      "threshold": -0.056667249083862004,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.6614588811159373,
+      "preference_loss": 0.4861449388015621,
+      "val_f1": 0.7231270358306189,
+      "threshold": -0.3661456005975676,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.5995240371486428,
+      "preference_loss": 0.502012893923406,
+      "val_f1": 0.69375,
+      "threshold": -0.7666894933816124,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    }
+  ],
+  "validation": {
+    "accuracy": 0.8430583501006036,
+    "precision": 0.6501547987616099,
+    "recall": 0.8300395256916996,
+    "f1": 0.7291666666666666,
+    "auc": 0.8604759085308282,
+    "threshold": -0.03452210186961224,
+    "tp": 210,
+    "fp": 113,
+    "fn": 43,
+    "tn": 628
+  },
+  "test": {
+    "accuracy": 0.8391959798994975,
+    "precision": 0.6477987421383647,
+    "recall": 0.8110236220472441,
+    "f1": 0.7202797202797203,
+    "auc": 0.8497933203693667,
+    "threshold": -0.03452210186961224,
+    "tp": 206,
+    "fp": 112,
+    "fn": 48,
+    "tn": 629
+  },
+  "efficiency": {
+    "data_loading_seconds": 0.09004783400450833,
+    "vocabulary_and_mapper_seconds": 1.123541250010021,
+    "train_cache_entries": 2180,
+    "train_cache_bytes": 607495,
+    "semantic_extraction_seconds": 2.7674817700171843,
+    "sequence_truncation_seconds": 0.005375025764806196,
+    "behavior_unit_construction_seconds": 0.9914563065976836,
+    "cache_hit_profile_seconds": 2.500458249996882,
+    "cache_hit_profile_ms_per_sample": 0.3768020268229177,
+    "training_seconds": 2237.9207517500035,
+    "epochs_run": 12,
+    "validation_inference_seconds": 9.445635457988828,
+    "test_inference_seconds": 12.177485042018816,
+    "test_latency_ms_per_sample": 12.238678434189765,
+    "test_throughput_samples_per_second": 81.70816852303406,
+    "graph_construction_seconds": 6.081787041010102,
+    "graphs_constructed": 89654,
+    "peak_rss_mb": 628.015625,
+    "gpu_peak_memory_mb": null,
+    "parameter_count": 296628,
+    "checkpoint_bytes": 1341386,
+    "cache_bytes": 607495
+  },
+  "checkpoint": "datasets_50k/quo_vadis/results/full_model_repairs/p3a_gating_regularization/full/seed_7/best_model.pt",
+  "view_weight_summary": {
+    "c0": {
+      "count": 112520,
+      "mean": 0.516062648193775,
+      "median": 0.524475485086441,
+      "q1": 0.3806782439351082,
+      "q3": 0.6569879055023193,
+      "iqr": 0.27630966156721115,
+      "std": 0.17680648558599427
+    },
+    "c1": {
+      "count": 87762,
+      "mean": 0.6426127524719408,
+      "median": 0.6871158182621002,
+      "q1": 0.5289278030395508,
+      "q3": 0.7511397898197174,
+      "iqr": 0.22221198678016663,
+      "std": 0.14606551964331732
+    }
+  }
+}

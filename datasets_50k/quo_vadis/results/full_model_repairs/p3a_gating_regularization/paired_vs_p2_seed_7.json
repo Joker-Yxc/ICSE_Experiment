@@ -1,0 +1,1097 @@
+{
+  "before_name": "p2_dsvdd",
+  "after_name": "p3a_dsvdd",
+  "sample_count": 995,
+  "transitions": {
+    "before_right_after_wrong": 62,
+    "both_right": 790,
+    "both_wrong": 98,
+    "before_wrong_after_right": 45
+  },
+  "by_label": {
+    "benign": {
+      "before_right_after_wrong": 48,
+      "both_right": 599,
+      "both_wrong": 64,
+      "before_wrong_after_right": 30
+    },
+    "malware": {
+      "before_right_after_wrong": 14,
+      "both_wrong": 34,
+      "before_wrong_after_right": 15,
+      "both_right": 191
+    }
+  },
+  "changed_examples": [
+    {
+      "sample_id": "00082642a0b9be04934b3e5b7f0aa8a75524679592133c5b02370b29fac22794",
+      "family": "coinminer",
+      "label": 1,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -0.35226768255233765,
+      "after_score": -2.620894432067871
+    },
+    {
+      "sample_id": "0008ac09c36a9d430ed9639165a0dcd714878573bed032548246bb5d77b63eff",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -5.287532806396484,
+      "after_score": -0.02368123084306717
+    },
+    {
+      "sample_id": "002d2bbda3ac27092fc428101c74f0bced96e4821522cd7b6638502ac89b8c3c",
+      "family": "dropper",
+      "label": 1,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -2.8283958435058594,
+      "after_score": -0.0003685484698507935
+    },
+    {
+      "sample_id": "003b33c3b0a6a6a47ffcb5f6d2d5ea8932c07b20c1a0cbace572e80768092ce0",
+      "family": "coinminer",
+      "label": 1,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.090485095977783,
+      "after_score": -0.00026945004356093705
+    },
+    {
+      "sample_id": "0064404263ba3d7acc219b3068780e9ac7f4d78f54d969fc1eb0c89bd5cea027.dat",
+      "family": "dropper",
+      "label": 1,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -6.98437070241198e-05,
+      "after_score": -3.431560516357422
+    },
+    {
+      "sample_id": "00c7fcba0a3348d8e38b6b65a6fd4b74151e60d40e99d53f2afff656891fe619",
+      "family": "backdoor",
+      "label": 1,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -1.4660964012145996,
+      "after_score": -0.04731491208076477
+    },
+    {
+      "sample_id": "027b40d80db67bc8027c44c748214113d031498f0754c28ad504af185b82067d",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -0.016211021691560745,
+      "after_score": -2.564277172088623
+    },
+    {
+      "sample_id": "02f242dee37df09b03488c48a281f203498e839b01643c1f1cec18df8dc96793.dat",
+      "family": "ransomware",
+      "label": 1,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.313831329345703,
+      "after_score": -0.01678888127207756
+    },
+    {
+      "sample_id": "0456b271568315200cff28cd20981dd2102740acd8e7d25db1d5e7b7f759b3e6",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.2231438159942627,
+      "after_score": -0.0006028030766174197
+    },
+    {
+      "sample_id": "049983269ab803ebaa1dcb64ddb43a2c4d2d577168db8c76b7b4da647bd353f0",
+      "family": "dropper",
+      "label": 1,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -6.761828899383545,
+      "after_score": -0.0005199346342124045
+    },
+    {
+      "sample_id": "04b6eb921f86f3032ab8fcabcf42ed9632b41ab7d2700eeed2c29f91a05bb2a5",
+      "family": "dropper",
+      "label": 1,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.534658432006836,
+      "after_score": -0.0025441306643188
+    },
+    {
+      "sample_id": "04cfe027c699682bd48f382988098d0275f680bc84104d25f1a590ddfa0de897.dat",
+      "family": "ransomware",
+      "label": 1,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -4.067847728729248,
+      "after_score": -0.0005307565443217754
+    },
+    {
+      "sample_id": "04d9422fbce50011386ef67f1856085a649932935f928c13bc7efe379ad6e293",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -7.622217178344727,
+      "after_score": -0.0005449001910164952
+    },
+    {
+      "sample_id": "057060d77f012b561cbbde7fe2c175ce229a89c45ed1407eb112c27a3687b48d",
+      "family": "dropper",
+      "label": 1,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -1.4148896932601929,
+      "after_score": -0.11537131667137146
+    },
+    {
+      "sample_id": "064d8126ed5c78e641680b566705a66b00a6428f74cc69f77bfe79f387e60f6d",
+      "family": "trojan",
+      "label": 1,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -0.001297213020734489,
+      "after_score": -2.155494451522827
+    },
+    {
+      "sample_id": "086f14d3aaaa5e55278698568aface6d7a615dcb88e67d9a60440ff2e991ed65",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -6.244847774505615,
+      "after_score": -0.0010607949225232005
+    },
+    {
+      "sample_id": "090deff2570fd6be21d1e9b810c693f628126deb938526729eb03a7052623ead",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.452097177505493,
+      "after_score": -0.00047432526480406523
+    },
+    {
+      "sample_id": "0922d7d51d2d5153d7e28120a520b27dab424b6f72dce9d722aa9b67b19c0c17.dat",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -2.308067798614502,
+      "after_score": -5.166579246520996
+    },
+    {
+      "sample_id": "0a0ffa72dc53bc6e88d1426547728afd9d71b7f440be8d18d426ead68831a384",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -0.00043443773756735027,
+      "after_score": -2.6578686237335205
+    },
+    {
+      "sample_id": "0a5f3912ac00c9030bae4d7cd17aa0829c469c78fe155bb81a620909bd0af10e",
+      "family": "backdoor",
+      "label": 1,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.0992770195007324,
+      "after_score": -0.0005131916841492057
+    },
+    {
+      "sample_id": "0d8d92b6aa39452c3c7971e3408784b1e6090ef185f751376a0dc20d982f007a",
+      "family": "trojan",
+      "label": 1,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.452096700668335,
+      "after_score": -0.00047584623098373413
+    },
+    {
+      "sample_id": "0db4703d5040965e16f4bb9d070a26fe14a245b0dcb04158f6d3814500b6cb6d",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.3108978271484375,
+      "after_score": -0.002219423884525895
+    },
+    {
+      "sample_id": "0dd33d1b8c707ec4a5260b01842726817e7194131693394516f9a0541b049fe4",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.5574116706848145,
+      "after_score": -0.00048431591130793095
+    },
+    {
+      "sample_id": "111427ccdfc0e5253cdeed0fee414e023ced114248935ff03458ad0351433442",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -10.596653938293457,
+      "after_score": -0.000338424404617399
+    },
+    {
+      "sample_id": "12b79fa794c6d857a57c87aac715e32f98bebe84fd2a3bca08ac6be68f4c4339",
+      "family": "coinminer",
+      "label": 1,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -5.811113357543945,
+      "after_score": -0.0007659326074644923
+    },
+    {
+      "sample_id": "14923de98e662ec006b61464c6db5fba489646a5748f0ea5d1e7fa970eade080.dat",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -6.0179045249242336e-05,
+      "after_score": -3.9676671028137207
+    },
+    {
+      "sample_id": "1567629707b23ff0cfc5e038572461aadb6d17973f142316d1684bac3105da2d",
+      "family": "trojan",
+      "label": 1,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.0604166984558105,
+      "after_score": -0.0004958758363500237
+    },
+    {
+      "sample_id": "15f0dff587c164b3c9aca716128ad4c0f7e06759c0760804baa4c67b5eadb7ba.dat",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -0.0003369570185896009,
+      "after_score": -3.3337550163269043
+    },
+    {
+      "sample_id": "16b41be6f09a90982f868ea4e834e94168a9ae439893cbdb1ccd75bd38ddfd0c",
+      "family": "keylogger",
+      "label": 1,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -3.9772785385139287e-05,
+      "after_score": -3.0855329036712646
+    },
+    {
+      "sample_id": "16f4299a912b84a2e11fd343897e9be1a0d437d02603a3f8879570aa31e8f2bb",
+      "family": "keylogger",
+      "label": 1,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -3.773441494558938e-05,
+      "after_score": -3.7181379795074463
+    },
+    {
+      "sample_id": "19168bfed5d596374cc29c15d3469e6649f88dd53d042cf9048ad68b0c50435a",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -1.690882921218872,
+      "after_score": -3.599925994873047
+    },
+    {
+      "sample_id": "1945af858f4aa8725dcbbd55791c607633962c9b4a1b63e66965544129d67f1f",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -0.00011758459731936455,
+      "after_score": -2.856381893157959
+    },
+    {
+      "sample_id": "19c91918c73066ffd752f207b18817ba75e6853f8e28bbbddc2546a8c906605c",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -0.004695736337453127,
+      "after_score": -0.07893957197666168
+    },
+    {
+      "sample_id": "1a9de588186d0d42e74ef0b695ea67131da15dec3d0a4b9e55f405079c5525cf",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.0281200408935547,
+      "after_score": -0.00048419073573313653
+    },
+    {
+      "sample_id": "1c9b1da315f61cd997879f8d20ed5777f51611518a4260ec06fb0daec49b92e6",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -0.006809805054217577,
+      "after_score": -2.945880889892578
+    },
+    {
+      "sample_id": "1ca7be39a21873c18971500b5620961c2a4fc8f4cd825a1e063cd1cadf4a0d6b",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -6.914681434631348,
+      "after_score": -0.012539384886622429
+    },
+    {
+      "sample_id": "2295a79c155958da3e9a2af6bacf06c851ee2c9ccdaf2bd87b63131f9657af25.dat",
+      "family": "rat",
+      "label": 1,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.056800365447998,
+      "after_score": -0.00039359560469165444
+    },
+    {
+      "sample_id": "22ea5990be6ad146355d864c1b9a3f2676947c151e0d9882a1eafa65eeb57aaf.dat",
+      "family": "trojan",
+      "label": 1,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.0831139087677,
+      "after_score": -0.000648620305582881
+    },
+    {
+      "sample_id": "24fa0cc081cab7943ed87f77a1bce7e18f8e52bba72f7dcb81c5c765a11434c3.dat",
+      "family": "coinminer",
+      "label": 1,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -0.30753055214881897,
+      "after_score": -3.214641571044922
+    },
+    {
+      "sample_id": "2570916c5491ca75270ba854d82a85ebcb93a527c77e9cdcf53a8fabcc3367ce",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -0.00010165011190110818,
+      "after_score": -4.834385871887207
+    },
+    {
+      "sample_id": "25f48abf4eb263f02dcb60aa85cc460c6e4cc6d3183df42530dc3259e30204c6",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -8.453434566035867e-05,
+      "after_score": -4.4439697265625
+    },
+    {
+      "sample_id": "2711fe57b7cb7427a5a633f9074f73aac5242c77225512a2036b8040a83adfce",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -7.453009605407715,
+      "after_score": -0.0018294323235750198
+    },
+    {
+      "sample_id": "275c51f2e66d5c0558a48a6ba2aa28649e03a5f60f9b1363589d6363a80ddcf8",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -0.0013841141480952501,
+      "after_score": -3.040957450866699
+    },
+    {
+      "sample_id": "2a7862492320bf2d0f79452f1bb0eff955eeb1645010c36c40a09ba9e635cc23",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -8.133941650390625,
+      "after_score": -0.02644638903439045
+    },
+    {
+      "sample_id": "2fb2015c49342cbd1a73fdea45b62955208f42cf77d9d94fe980b2a4de350084",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -2.9769535064697266,
+      "after_score": -0.0009355440270155668
+    },
+    {
+      "sample_id": "319d1c324c5bf5a745fd3cbb8160988cc1077150c15a9c5385d01dc8f37f3633.dat",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.769814968109131,
+      "after_score": -0.000470226164907217
+    },
+    {
+      "sample_id": "397d1166b77ca490c3598452a21020f8c49d48020dc0a2e3b9f906e084fb418c",
+      "family": "trojan",
+      "label": 1,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -0.0002127351617673412,
+      "after_score": -1.0244121551513672
+    },
+    {
+      "sample_id": "3a8eadcd8a868a861e12eb79d8f1386c4e45c6c8340f563900c1e270c3211586",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -5.1504669189453125,
+      "after_score": -0.00042711387504823506
+    },
+    {
+      "sample_id": "3b2da4b7f28c38ce57575cf686534f8983d439319e3ec268ec42cf0aa5108639",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.452097177505493,
+      "after_score": -0.00047418978647328913
+    },
+    {
+      "sample_id": "3b8959a8c5f2d68dd89d4f92d953dd8bd5a1586eb6a6f0f34f278ea456c0a28b",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -0.0005395917105488479,
+      "after_score": -0.4214913845062256
+    },
+    {
+      "sample_id": "3f66984fb06d1b0af7bbfef1a916fd56a5eda2e946957280346dfb4bd79f0847",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -0.0029968691524118185,
+      "after_score": -0.1210210844874382
+    },
+    {
+      "sample_id": "41c4fc7c2451b32d603c08b5630287362e69194319ba8535cf095f91d4578c5b.dat",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -4.3962202072143555,
+      "after_score": -0.0004270116041880101
+    },
+    {
+      "sample_id": "4337be9ff1981404de26e0a754af6d3faad300e712674bd9fa6416d17c808288.dat",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -6.012836933135986,
+      "after_score": -0.0005992419319227338
+    },
+    {
+      "sample_id": "43c8c990dd11bc8478d7d0d0aa94ea5b15e3e384e0225a5ee7e3307e6aaf2520.dat",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -0.00028705160366371274,
+      "after_score": -4.517628192901611
+    },
+    {
+      "sample_id": "47370567a44d4e367549cb93fed63e2677386e7e063afb79cfab6837d5078d67.dat",
+      "family": "coinminer",
+      "label": 1,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -0.5158337950706482,
+      "after_score": -3.0862767696380615
+    },
+    {
+      "sample_id": "48ca1e3cf98274bbc8463b0450d63cfd36774cf112322f455d984d993ee12dc3",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -6.989984035491943,
+      "after_score": -0.0007691857172176242
+    },
+    {
+      "sample_id": "49e7a5357623d867fda24f4a5243b6e951ff059e19e14892f0fb3ea75a1b700d",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -4.414300441741943,
+      "after_score": -0.0011155796237289906
+    },
+    {
+      "sample_id": "4b2ca88b56f58c239cc4bc44581d8603204b7f3a5ee10d6b135ec6745c2bc48c",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.047701835632324,
+      "after_score": -0.0005283798091113567
+    },
+    {
+      "sample_id": "4c30452e81bbd77a069041efc21f007cb50db25e55a174cec34132b29aeb423b",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -10.185178756713867,
+      "after_score": -0.0008360637002624571
+    },
+    {
+      "sample_id": "4c8a099e51f1acab7b042a54170b55b3444c74890162fe1523841b405b385521",
+      "family": "trojan",
+      "label": 1,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.038167953491211,
+      "after_score": -0.00036843979614786804
+    },
+    {
+      "sample_id": "4f8b1f6665f880c6afdf031508d12400e41e77a2643b6f2839fe90a2c638b12f",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -6.726946830749512,
+      "after_score": -0.0005517459940165281
+    },
+    {
+      "sample_id": "5647065f91a5291ec3ef5a510463fe2a052a3b8fc2f498dd96a073adb0c348d0",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.076988697052002,
+      "after_score": -0.00024354497145395726
+    },
+    {
+      "sample_id": "5695bab6407b3529c6427314fc4fe4a660c9faeb9a4a80f932d3ad1fd47b3f20",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.2538528442382812,
+      "after_score": -0.0004875976010225713
+    },
+    {
+      "sample_id": "5f349fc9b58bf915b5db0c6bcd8ccbf2333c8d6e5a57f13532734938aedcebbd",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.3781003952026367,
+      "after_score": -0.0005835220217704773
+    },
+    {
+      "sample_id": "6171324d078e0aae60769b2e4eeb9f00d7aeafda7b9723601bca21b3099cf663",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -4.802017429028638e-05,
+      "after_score": -0.28884631395339966
+    },
+    {
+      "sample_id": "6270268441ce3e185e1941d7cce434376a72bf537b3d0922e51884590cd0c55a",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -6.022047519683838,
+      "after_score": -0.0010212237248197198
+    },
+    {
+      "sample_id": "66d858829b0017d62057692c477f6633420969dbe41ac6d2f0b94d7d83b6854b",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -7.268065452575684,
+      "after_score": -0.00046192388981580734
+    },
+    {
+      "sample_id": "691449acbbd8b4504b6d1943fed444fba0148f249aeef2754700452b3529f762",
+      "family": "keylogger",
+      "label": 1,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.8954687118530273,
+      "after_score": -0.0012928006472066045
+    },
+    {
+      "sample_id": "6a9e7d0fbd510a836f266dfa18954db2be3ee5e75bdefd902bdf7fdc055eb346.dat",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.0160861015319824,
+      "after_score": -0.0006432734662666917
+    },
+    {
+      "sample_id": "6d7799ac08b9a89c9583439d33bcc18262af7c6d0c0977d657293d813215bb64",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -2.2048802375793457,
+      "after_score": -3.882702350616455
+    },
+    {
+      "sample_id": "6e6410e3fccdfff5cfeb9948b87b7800a3d8fbb8892171629d8b12ed255c1808.dat",
+      "family": "ransomware",
+      "label": 1,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -4.707582775154151e-05,
+      "after_score": -2.181654930114746
+    },
+    {
+      "sample_id": "7604e079c518382fc863add3e0300c208a236b037b66905ce628904c02361759",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -5.311778545379639,
+      "after_score": -0.0005675735301338136
+    },
+    {
+      "sample_id": "7a7da9b70242845490393c0abe3b4ecd1ef5ed713d98d141f91f38dfcac03a43",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -6.643893718719482,
+      "after_score": -0.00030914932722225785
+    },
+    {
+      "sample_id": "7fbc2236c183913e94e205aa26c10d8395ad4fcec1e08bb2d24667ab6bcbd92e.dat",
+      "family": "dropper",
+      "label": 1,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -0.00033992528915405273,
+      "after_score": -3.1482131481170654
+    },
+    {
+      "sample_id": "8a4bbca20c1c1fcff288aad55a446232a2d059c5c6a88d601d0cbcfa1116f800",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -4.741535663604736,
+      "after_score": -0.0005148575874045491
+    },
+    {
+      "sample_id": "8a76ffc85e348093ba1c7436241487ecb1d0099e5749b2882b11d96cb200b24c",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -5.863615989685059,
+      "after_score": -0.003084466326981783
+    },
+    {
+      "sample_id": "8adb061f54851c85c1e25454ec5f45119e79675e48ea9e35050572ca96e26276",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -1.1730214357376099,
+      "after_score": -2.8968982696533203
+    },
+    {
+      "sample_id": "901881bd33bb24c92784ab501d73c6f6c8413d3bd45cb788442107b135834054",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.03263521194458,
+      "after_score": -0.0003886902122758329
+    },
+    {
+      "sample_id": "9266c7b48d72ebd871ff29d84ef184e1408ccdfb68225dbd88a12f66bc0deb85",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.5733704566955566,
+      "after_score": -0.0025059187319129705
+    },
+    {
+      "sample_id": "94e751cd141bd4c0616ef877c45ef579368d4fbf98949f0c74df4e6741bf0e59",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -6.059880256652832,
+      "after_score": -0.0006598022882826626
+    },
+    {
+      "sample_id": "95aa94db9a0251f85c4ea68bc37ce1c683499ee1875d07a008dc08a4ca9aff54.dat",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -4.0886014176066965e-05,
+      "after_score": -2.462735414505005
+    },
+    {
+      "sample_id": "96159c00a8cdeb4a63856f54e15788cf410e00010dec002f301c85ab5ac969ef",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -7.268065452575684,
+      "after_score": -0.00046192388981580734
+    },
+    {
+      "sample_id": "9aeb7006bcd0818c4cfef3dc8c36bbe84767227e1f70890d205617e97f6ba153.dat",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.3904948234558105,
+      "after_score": -0.0004275847168173641
+    },
+    {
+      "sample_id": "9ccca72dda3acb76964467e24eb026cb7b3d958a36090b8ffec3134a23d2b570",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -5.512778282165527,
+      "after_score": -0.0004550726735033095
+    },
+    {
+      "sample_id": "9e6a32648873cc53de2db9603cdd73a4d80c3aa71e16c8ac28f34b16509a23e8.dat",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -0.16374073922634125,
+      "after_score": -4.856494426727295
+    },
+    {
+      "sample_id": "a0669193aadf386c5203ee628ef8a2b789bcccf9a530ee92c057755653ff193a",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -7.55165433883667,
+      "after_score": -0.024647118523716927
+    },
+    {
+      "sample_id": "a1b30e090e2ce8cffaeb1d31e6107e2fe2b92197f8ec7d34b9b58a8fca7bdb59.dat",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -4.717568397521973,
+      "after_score": -0.000479806651128456
+    },
+    {
+      "sample_id": "a7c6cfc659d112bd7545bf58e77e6ccf7e4abc1ed4b32c403e407add2d749659",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -8.434858322143555,
+      "after_score": -0.020960509777069092
+    },
+    {
+      "sample_id": "abd2c9fc9676dc637268d23e96c56c79f75489f88a8034c575e628cd498b4d53",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -1.3738311529159546,
+      "after_score": -2.8249013423919678
+    },
+    {
+      "sample_id": "ad154491897d59244872bf7d76af8a9afe6c41c0d5c7f6814d6d5297e90d3bb8",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.452097177505493,
+      "after_score": -0.00047431496204808354
+    },
+    {
+      "sample_id": "b62240573988c88cf4d28cbad7e80facd9afa79efc98627d16ca7322dcc64248",
+      "family": "coinminer",
+      "label": 1,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -0.7609803080558777,
+      "after_score": -2.9770092964172363
+    },
+    {
+      "sample_id": "b6bd4942bfeaa50e2165c744e29f6cfd5486fd4d368b32c3f837f20ad1f0018a",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -0.0003005302860401571,
+      "after_score": -1.5600693225860596
+    },
+    {
+      "sample_id": "b6ca950de0bea24350794bfc68b8a430bf8d4388b3da78c6d9ac3cad54a7a531",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -0.0007975648622959852,
+      "after_score": -4.409624099731445
+    },
+    {
+      "sample_id": "b74d31f48140f7402ef216066acd6560c4223eac39898d2fffc93f0f017d42b1.dat",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.0568687915802,
+      "after_score": -0.0004690370406024158
+    },
+    {
+      "sample_id": "bf92542416719694390b21f6a88b1dec54c621b4f08683e52f89cbe2ddeea6ef",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -3.6589255614671856e-05,
+      "after_score": -5.474111557006836
+    },
+    {
+      "sample_id": "c143895e4b15473f817b9434f6124c36e6875022c9110c6b4a8348092953218d",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -1.7887842655181885,
+      "after_score": -4.353631496429443
+    },
+    {
+      "sample_id": "d3c382aaea3872d91ab574c7103b20d7a242591f223eca6eaa251d3f1dac114f",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.025186061859131,
+      "after_score": -0.000490670558065176
+    },
+    {
+      "sample_id": "d78ce910ea5f048492bfe8c51f9b0c0e07e2865c217baeed61b48f351fb78280",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -1.7458763122558594,
+      "after_score": -3.630451202392578
+    },
+    {
+      "sample_id": "d92ef5b5af013094e9aaf2407c499756c7de737cdb95bf8a911787f4a1f5c564",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -0.0004023900837637484,
+      "after_score": -2.7445662021636963
+    },
+    {
+      "sample_id": "da4e5e20ff0dcf6b6ac01aea42e19b2dc7e601afa52148f2244a81519db82d8f",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -6.593634316232055e-05,
+      "after_score": -2.459886074066162
+    },
+    {
+      "sample_id": "de9ad4014c21145a90fa59939ba4f47271ed8472eddec65bf2b7ac31851b1cac.dat",
+      "family": "keylogger",
+      "label": 1,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -0.04730270430445671,
+      "after_score": -3.20998477935791
+    },
+    {
+      "sample_id": "e0e911ba62c0f91500bea8a1a2312c4bbc7a696cb8c93732554804f6664f1f1b",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -7.0685319900512695,
+      "after_score": -0.0006330836331471801
+    },
+    {
+      "sample_id": "ee0795bfa08d661a239de98a567bd16e53c1e4f4f658f0dc41ec9591a6153d76.dat",
+      "family": "rat",
+      "label": 1,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -2.9596734046936035,
+      "after_score": -0.00029206121689639986
+    },
+    {
+      "sample_id": "ef8e8994f1292484991964003a51122019b854047a729cad2af2c38cd8337c95",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -2.296945095062256,
+      "after_score": -3.0017545223236084
+    },
+    {
+      "sample_id": "f119b0904a192bffbfe16c3ef5f889f28467ba209a4d2900c02ece1290864910.dat",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -5.289920330047607,
+      "after_score": -0.0005095576634630561
+    },
+    {
+      "sample_id": "f956c4fe228590b274ce98970e4f6acfc981430d45892fb31068e304e00f8284",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_right_after_wrong",
+      "before_prediction": 0,
+      "after_prediction": 1,
+      "before_score": -3.263629198074341,
+      "after_score": -0.0005267704254947603
+    },
+    {
+      "sample_id": "fd9facc3e4783ae063b45ae288702ea20d3698fc625bc2ab88484d54b27ff4cc",
+      "family": "benign",
+      "label": 0,
+      "transition": "before_wrong_after_right",
+      "before_prediction": 1,
+      "after_prediction": 0,
+      "before_score": -0.005220274906605482,
+      "after_score": -2.329578161239624
+    }
+  ]
+}

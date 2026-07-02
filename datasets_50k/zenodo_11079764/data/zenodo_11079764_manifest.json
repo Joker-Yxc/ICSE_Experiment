@@ -1,0 +1,55 @@
+{
+  "dataset": "zenodo_11079764",
+  "status": "pending_raw_trace_archive",
+  "reason": "Only record_metadata.json and shas_by_families.json are present locally; API trace archive is not present.",
+  "expected_local_archive": "datasets_50k/zenodo_11079764/data/raw/API_traces_malware_detection.tar.xz",
+  "streaming_supported": false,
+  "note": "The archive is not downloaded or extracted automatically. Add a dataset-specific streaming reader before generating Zenodo compact subsets.",
+  "record_id": 11079764,
+  "doi": "10.5281/zenodo.11079764",
+  "files": [
+    {
+      "id": "d53b3465-6922-4770-91f4-1350a654b708",
+      "key": "API_traces_malware_detection.tar.xz",
+      "size": 9336481760,
+      "checksum": "md5:03d9610cadb30ee5d6cad50251f111bf",
+      "links": {
+        "self": "https://zenodo.org/api/records/11079764/files/API_traces_malware_detection.tar.xz/content"
+      }
+    },
+    {
+      "id": "718780ac-1932-41ef-aeaf-ae19d9728763",
+      "key": "shas_by_families.json",
+      "size": 25781956,
+      "checksum": "md5:b07c925aef91e8f5d76a6a5cf1b4ea6e",
+      "links": {
+        "self": "https://zenodo.org/api/records/11079764/files/shas_by_families.json/content"
+      }
+    }
+  ],
+  "family_mapping_file": "datasets_50k/zenodo_11079764/data/raw/shas_by_families.json",
+  "family_count": 264,
+  "sha_reference_count": 339153,
+  "top20_families": {
+    "soltern": 58731,
+    "vobfus": 57327,
+    "eggnog": 31353,
+    "nevereg": 17146,
+    "urelas": 14972,
+    "prepscram": 12816,
+    "vilsel": 11222,
+    "benign": 9621,
+    "sfone": 8096,
+    "ludbaruma": 7939,
+    "vflooder": 6456,
+    "ganelp": 6006,
+    "mira": 4908,
+    "nitol": 4820,
+    "allaple": 4304,
+    "tempedreve": 4271,
+    "mydoom": 3792,
+    "shifu": 3217,
+    "buterat": 2614,
+    "mofksys": 2154
+  }
+}

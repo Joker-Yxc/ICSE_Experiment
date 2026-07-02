@@ -1,0 +1,35 @@
+{
+  "method": "dawngnn_reimpl",
+  "status": "ok",
+  "implementation": "API transition graph + documentation-style semantic node embeddings + 2-layer GAT",
+  "dataset": "zenodo_11079764",
+  "split_policy": "used existing split field without resplitting",
+  "seed": 7,
+  "split_counts": {
+    "train": 35000,
+    "val": 7500,
+    "test": 7500
+  },
+  "epochs_run": 30,
+  "best_epoch": 5,
+  "best_val_f1": 0.7893245862531684,
+  "threshold": 0.5,
+  "runtime_seconds": 91.818,
+  "val_accuracy": 0.8116,
+  "val_precision": 0.8951640175853905,
+  "val_recall": 0.7058666666666666,
+  "val_f1": 0.7893245862531684,
+  "val_auc": 0.9183647644444445,
+  "test_accuracy": 0.8214666666666667,
+  "test_precision": 0.895635050869708,
+  "test_recall": 0.7277333333333333,
+  "test_f1": 0.8030013241135795,
+  "test_auc": 0.9188561422222222,
+  "confusion_matrix": {
+    "tp": 2729,
+    "fp": 318,
+    "fn": 1021,
+    "tn": 3432
+  },
+  "raw_result": "datasets_50k/zenodo_11079764/artifacts/dawngnn_reimpl/raw_result.json"
+}

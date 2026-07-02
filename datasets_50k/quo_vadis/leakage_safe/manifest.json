@@ -1,0 +1,45 @@
+{
+  "artifacts": {
+    "dataset_quality": "datasets_50k/quo_vadis/leakage_safe/dataset_quality.json",
+    "leakage_audit": "datasets_50k/quo_vadis/leakage_safe/leakage_audit.json"
+  },
+  "dataset": "quo_vadis",
+  "input": "datasets_50k/quo_vadis/data/quo_vadis_main_50k.jsonl.gz",
+  "input_sha256": "4f9d41211d491d431570ba5e9bede6069ea7c1113b2f0188236ebe831d4386fc",
+  "output": "datasets_50k/quo_vadis/leakage_safe/quo_vadis_leakage_safe.jsonl.gz",
+  "output_sha256": "ea8d8837ad58e5d14e88cd01fbdf1c26e9f756986b43466eee94c9ba63780a22",
+  "ratios": {
+    "test": 0.15000000000000005,
+    "train": 0.7,
+    "val": 0.15
+  },
+  "seed": 7,
+  "split_assignment": {
+    "assigned_rows_by_label": {
+      "benign": {
+        "test": 741,
+        "train": 3462,
+        "val": 741
+      },
+      "malware": {
+        "test": 254,
+        "train": 1185,
+        "val": 253
+      }
+    },
+    "split_policy": "binary-label-balanced greedy assignment of atomic report groups",
+    "target_rows_by_label": {
+      "benign": {
+        "test": 741.6000000000003,
+        "train": 3460.7999999999997,
+        "val": 741.6
+      },
+      "malware": {
+        "test": 253.8000000000001,
+        "train": 1184.3999999999999,
+        "val": 253.79999999999998
+      }
+    },
+    "unique_source_groups": 6635
+  }
+}

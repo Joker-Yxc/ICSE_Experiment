@@ -1,0 +1,22 @@
+{
+  "dataset": "quo_vadis",
+  "data": "datasets_50k/quo_vadis/data/quo_vadis_main_50k.jsonl.gz",
+  "full_artifact": "datasets_50k/quo_vadis/results/rq1_repaired_balanced/full/seed_7",
+  "checkpoint": "datasets_50k/quo_vadis/results/rq1_repaired_balanced/full/seed_7/best_model.pt",
+  "cache": "datasets_50k/quo_vadis/results/rq1_repaired_balanced/full/seed_7/behavior_template_cache.json",
+  "seed": 7,
+  "split_counts": {
+    "train": 35000,
+    "val": 7500,
+    "test": 7500
+  },
+  "perturbation": "insertion",
+  "intensity": 0.3,
+  "threshold": 0.6566662851085141,
+  "threshold_source": "clean validation",
+  "checkpoint_source": "clean validation",
+  "objective": "bce",
+  "device": "cpu",
+  "training_performed": false,
+  "local_reordering_window": null
+}

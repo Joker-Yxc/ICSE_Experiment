@@ -1,0 +1,41 @@
+{
+  "dataset": "zenodo_11079764",
+  "data": "datasets_50k/zenodo_11079764/data/zenodo_main_50k.jsonl.gz",
+  "full_artifact": "datasets_50k/zenodo_11079764/results/rq1_repaired_balanced/full/seed_7",
+  "checkpoint": "datasets_50k/zenodo_11079764/results/rq1_repaired_balanced/full/seed_7/best_model.pt",
+  "cache": "datasets_50k/zenodo_11079764/results/rq1_repaired_balanced/full/seed_7/behavior_template_cache.json",
+  "seed": 7,
+  "split_counts": {
+    "train": 35000,
+    "val": 7500,
+    "test": 7500
+  },
+  "perturbation": "deletion",
+  "intensity": 0.2,
+  "threshold": 0.07000123194118146,
+  "threshold_source": "clean validation",
+  "checkpoint_source": "clean validation",
+  "objective": "bce",
+  "device": "cpu",
+  "training_performed": false,
+  "local_reordering_window": null,
+  "model_call_capacity": 208,
+  "capacity_selection": "uniform-cover",
+  "prediction_count": 7500,
+  "metrics": {
+    "accuracy": 0.8753333333333333,
+    "precision": 0.860066513174725,
+    "recall": 0.8965333333333333,
+    "f1": 0.8779213996605301,
+    "auc": 0.9348532266666667,
+    "threshold": 0.07000123194118146,
+    "tp": 3362,
+    "fp": 547,
+    "fn": 388,
+    "tn": 3203,
+    "delta_f1": -0.06297860033946989,
+    "delta_auc": -0.04424677333333327
+  },
+  "preparation_and_inference_seconds": 90.08960645800107,
+  "inference_seconds": 85.3539675840002
+}

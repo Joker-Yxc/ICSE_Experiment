@@ -1,0 +1,15 @@
+{
+  "dataset": "quo_vadis",
+  "samples": 995,
+  "groups": 995,
+  "full_f1": 0.7297830374753451,
+  "baseline_f1": 0.8230616302186878,
+  "delta_f1": -0.09327859274334271,
+  "bootstrap_95_ci": [
+    -0.1367532220051839,
+    -0.05102714481116769
+  ],
+  "paired_randomization_p_value": 0.00029997000299970003,
+  "iterations": 10000,
+  "seed": 7
+}

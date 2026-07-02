@@ -1,0 +1,153 @@
+{
+  "method": "escapture_dual_view",
+  "variant": "wo_preference_loss",
+  "held_out_family": null,
+  "seed": 7,
+  "status": "ok",
+  "data": "datasets_50k/quo_vadis/leakage_safe/quo_vadis_leakage_safe.jsonl.gz",
+  "split_policy": "existing compact JSONL.GZ split field used verbatim",
+  "split_counts": {
+    "train": 4647,
+    "val": 994,
+    "test": 995
+  },
+  "config": {
+    "semantic_mode": "llm_template",
+    "use_sequence_view": true,
+    "use_graph_view": true,
+    "prior_mode": "real",
+    "hard_switching": false,
+    "use_gating_prior": true,
+    "use_structural_bias": true,
+    "use_relation_features": true,
+    "weighting_mode": "softmax",
+    "lambda_pref": 0.0
+  },
+  "hardware": {
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "python": "3.12.13",
+    "torch": "2.12.0",
+    "device": "cpu",
+    "cpu": "arm"
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.281953422317305,
+      "preference_loss": 0.28217323459842036,
+      "val_f1": 0.6482758620689655,
+      "threshold": -1.1996311464735
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.994922725721616,
+      "preference_loss": 0.8709625676714419,
+      "val_f1": 0.6666666666666666,
+      "threshold": -0.027845921618863123
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.8552653493061524,
+      "preference_loss": 1.1915447580411966,
+      "val_f1": 0.6666666666666666,
+      "threshold": -2.9170952098350975
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.7786029302602033,
+      "preference_loss": 1.414892772016143,
+      "val_f1": 0.6632478632478632,
+      "threshold": -2.614274800627027
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.7325548523883012,
+      "preference_loss": 1.4465677097628389,
+      "val_f1": 0.6597582037996546,
+      "threshold": -1.6671173834480575
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.69145938069233,
+      "preference_loss": 1.462950018563854,
+      "val_f1": 0.6654804270462633,
+      "threshold": -2.7249127539293845
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.6824758893475211,
+      "preference_loss": 1.29943968262602,
+      "val_f1": 0.6630824372759857,
+      "threshold": -2.3024803599001213
+    }
+  ],
+  "validation": {
+    "accuracy": 0.823943661971831,
+    "precision": 0.6433823529411765,
+    "recall": 0.691699604743083,
+    "f1": 0.6666666666666666,
+    "auc": 0.8337840649053463,
+    "threshold": -0.027845921618863123,
+    "tp": 175,
+    "fp": 97,
+    "fn": 78,
+    "tn": 644
+  },
+  "test": {
+    "accuracy": 0.8331658291457287,
+    "precision": 0.6654135338345865,
+    "recall": 0.6968503937007874,
+    "f1": 0.6807692307692308,
+    "auc": 0.8415314482450826,
+    "threshold": -0.027845921618863123,
+    "tp": 177,
+    "fp": 89,
+    "fn": 77,
+    "tn": 652
+  },
+  "efficiency": {
+    "data_loading_seconds": 0.09348450001562014,
+    "vocabulary_and_mapper_seconds": 0.9618799159943592,
+    "train_cache_entries": 2180,
+    "train_cache_bytes": 607495,
+    "semantic_extraction_seconds": 2.5947952441638336,
+    "sequence_truncation_seconds": 0.005797471909318119,
+    "behavior_unit_construction_seconds": 0.26371988977189176,
+    "cache_hit_profile_seconds": 2.569957041007001,
+    "cache_hit_profile_ms_per_sample": 0.3872750212487946,
+    "training_seconds": 152.20166729201446,
+    "epochs_run": 7,
+    "validation_inference_seconds": 2.0101988329843152,
+    "test_inference_seconds": 2.274505624984158,
+    "test_latency_ms_per_sample": 2.2859353014916164,
+    "test_throughput_samples_per_second": 437.4577002890156,
+    "graph_construction_seconds": 0.1854676670045592,
+    "graphs_constructed": 29179,
+    "peak_rss_mb": 581.5,
+    "gpu_peak_memory_mb": null,
+    "parameter_count": 297652,
+    "checkpoint_bytes": 1345354,
+    "cache_bytes": 607495
+  },
+  "checkpoint": "datasets_50k/quo_vadis/results/ablation/wo_preference_loss/seed_7/best_model.pt",
+  "view_weight_summary": {
+    "c0": {
+      "count": 18298,
+      "mean": 0.6582875296771559,
+      "median": 0.7191339433193207,
+      "q1": 0.45047247409820557,
+      "q3": 0.8216265439987183,
+      "iqr": 0.3711540699005127,
+      "std": 0.20405613927146732
+    },
+    "c1": {
+      "count": 2312,
+      "mean": 0.8969748581157011,
+      "median": 0.8771466016769409,
+      "q1": 0.8619994521141052,
+      "q3": 0.9226886928081512,
+      "iqr": 0.06068924069404602,
+      "std": 0.04705840721097304
+    }
+  }
+}

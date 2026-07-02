@@ -1,0 +1,11 @@
+OpenFile ReadFile ReadFile CloseHandle
+CreateFile WriteFile FlushFileBuffers CloseHandle
+Socket Connect Send Recv CloseSocket
+GetFileAttributes OpenFile ReadFile CloseHandle
+CreateDirectory CreateFile WriteFile CloseHandle
+RegOpenKey RegQueryValue RegCloseKey
+LoadLibrary GetProcAddress FreeLibrary
+OpenProcess QueryInformationProcess CloseHandle
+CreateFile ReadFile SetFilePointer ReadFile CloseHandle
+GetSystemTime GetUserName GetComputerName CloseHandle
+

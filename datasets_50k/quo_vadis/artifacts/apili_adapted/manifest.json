@@ -1,0 +1,20 @@
+{
+  "data_path": "/Users/yanxingchen/Desktop/\u5b9e\u9a8c/datasets_50k/quo_vadis/data/quo_vadis_main_50k.jsonl.gz",
+  "data_mtime_ns": 1781617479243786921,
+  "seed": 7,
+  "max_length": 256,
+  "min_api_frequency": 2,
+  "bert_model": "prajjwal1/bert-tiny",
+  "bert_max_tokens": 32,
+  "limit_per_split": 0,
+  "split_policy": "existing split field used verbatim; no resplitting",
+  "split_counts": {
+    "train": 35000,
+    "val": 7500,
+    "test": 7500
+  },
+  "vocab_size": 1522,
+  "family_count": 7,
+  "semantic_dim": 128,
+  "resource_fallback": "API name converted to a simplified resource sentence"
+}

@@ -1,0 +1,488 @@
+{
+  "ldrgetdllhandle": {
+    "context": "local_process_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ldrgetprocedureaddress": {
+    "context": "persistent_object_context",
+    "goal": "data_collection",
+    "object": "<FILE_OBJECT>",
+    "operation": "file_read",
+    "resource": "file",
+    "subject": "process:unknown",
+    "template_id": "file_read"
+  },
+  "ldrloaddll": {
+    "context": "local_process_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ntallocatevirtualmemory": {
+    "context": "local_process_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ntclose": {
+    "context": "local_process_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ntcreatefile": {
+    "context": "persistent_object_context",
+    "goal": "filesystem_modification",
+    "object": "<FILE_OBJECT>",
+    "operation": "file_update",
+    "resource": "file",
+    "subject": "process:unknown",
+    "template_id": "file_write"
+  },
+  "ntcreatekey": {
+    "context": "local_process_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ntcreatemutant": {
+    "context": "local_process_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ntcreatesection": {
+    "context": "local_process_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ntcreatethreadex": {
+    "context": "extended_or_remote_context",
+    "goal": "data_collection",
+    "object": "<FILE_OBJECT>",
+    "operation": "file_read",
+    "resource": "file",
+    "subject": "process:unknown",
+    "template_id": "file_read"
+  },
+  "ntcreateuserprocess": {
+    "context": "local_process_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ntdelayexecution": {
+    "context": "extended_or_remote_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ntdeviceiocontrolfile": {
+    "context": "local_process_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ntduplicateobject": {
+    "context": "local_process_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ntenumeratekey": {
+    "context": "local_process_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ntenumeratevaluekey": {
+    "context": "local_process_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ntfreevirtualmemory": {
+    "context": "local_process_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ntgetcontextthread": {
+    "context": "extended_or_remote_context",
+    "goal": "data_collection",
+    "object": "<FILE_OBJECT>",
+    "operation": "file_read",
+    "resource": "file",
+    "subject": "process:unknown",
+    "template_id": "file_read"
+  },
+  "ntmapviewofsection": {
+    "context": "runtime_loading_context",
+    "goal": "payload_preparation",
+    "object": "<MEMORY_REGION_OR_DLL>",
+    "operation": "memory_or_library",
+    "resource": "memory",
+    "subject": "process:unknown",
+    "template_id": "memory_exec"
+  },
+  "ntopendirectoryobject": {
+    "context": "local_process_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ntopenfile": {
+    "context": "local_process_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ntopenkey": {
+    "context": "local_process_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ntopenkeyex": {
+    "context": "extended_or_remote_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ntopenmutant": {
+    "context": "local_process_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ntopenprocess": {
+    "context": "local_process_context",
+    "goal": "privilege_or_injection",
+    "object": "<PROCESS_OR_THREAD>",
+    "operation": "process_manipulation",
+    "resource": "process",
+    "subject": "process:unknown",
+    "template_id": "process_control"
+  },
+  "ntopensection": {
+    "context": "local_process_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ntopenthread": {
+    "context": "persistent_object_context",
+    "goal": "data_collection",
+    "object": "<FILE_OBJECT>",
+    "operation": "file_read",
+    "resource": "file",
+    "subject": "process:unknown",
+    "template_id": "file_read"
+  },
+  "ntprotectvirtualmemory": {
+    "context": "local_process_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ntqueryattributesfile": {
+    "context": "local_process_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ntquerydirectoryfile": {
+    "context": "persistent_object_context",
+    "goal": "data_collection",
+    "object": "<FILE_OBJECT>",
+    "operation": "file_read",
+    "resource": "file",
+    "subject": "process:unknown",
+    "template_id": "file_read"
+  },
+  "ntqueryfullattributesfile": {
+    "context": "local_process_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ntqueryinformationfile": {
+    "context": "local_process_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ntquerykey": {
+    "context": "local_process_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ntquerysysteminformation": {
+    "context": "local_process_context",
+    "goal": "payload_execution",
+    "object": "<PROCESS_OR_THREAD>",
+    "operation": "process_execution",
+    "resource": "process",
+    "subject": "process:unknown",
+    "template_id": "process_exec"
+  },
+  "ntquerysystemtime": {
+    "context": "local_process_context",
+    "goal": "payload_execution",
+    "object": "<PROCESS_OR_THREAD>",
+    "operation": "process_execution",
+    "resource": "process",
+    "subject": "process:unknown",
+    "template_id": "process_exec"
+  },
+  "ntqueryvaluekey": {
+    "context": "local_process_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ntqueueapcthread": {
+    "context": "persistent_object_context",
+    "goal": "data_collection",
+    "object": "<FILE_OBJECT>",
+    "operation": "file_read",
+    "resource": "file",
+    "subject": "process:unknown",
+    "template_id": "file_read"
+  },
+  "ntraiseharderror": {
+    "context": "local_process_context",
+    "goal": "execution_context",
+    "object": "<ERROR_STATE>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ntreadfile": {
+    "context": "persistent_object_context",
+    "goal": "data_collection",
+    "object": "<FILE_OBJECT>",
+    "operation": "file_read",
+    "resource": "file",
+    "subject": "process:unknown",
+    "template_id": "file_read"
+  },
+  "ntreadvirtualmemory": {
+    "context": "persistent_object_context",
+    "goal": "data_collection",
+    "object": "<FILE_OBJECT>",
+    "operation": "file_read",
+    "resource": "file",
+    "subject": "process:unknown",
+    "template_id": "file_read"
+  },
+  "ntresumethread": {
+    "context": "persistent_object_context",
+    "goal": "data_collection",
+    "object": "<FILE_OBJECT>",
+    "operation": "file_read",
+    "resource": "file",
+    "subject": "process:unknown",
+    "template_id": "file_read"
+  },
+  "ntsetcontextthread": {
+    "context": "extended_or_remote_context",
+    "goal": "data_collection",
+    "object": "<FILE_OBJECT>",
+    "operation": "file_read",
+    "resource": "file",
+    "subject": "process:unknown",
+    "template_id": "file_read"
+  },
+  "ntsetinformationfile": {
+    "context": "local_process_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ntsetvaluekey": {
+    "context": "local_process_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "ntsuspendthread": {
+    "context": "persistent_object_context",
+    "goal": "data_collection",
+    "object": "<FILE_OBJECT>",
+    "operation": "file_read",
+    "resource": "file",
+    "subject": "process:unknown",
+    "template_id": "file_read"
+  },
+  "ntterminateprocess": {
+    "context": "local_process_context",
+    "goal": "privilege_or_injection",
+    "object": "<PROCESS_OR_THREAD>",
+    "operation": "process_manipulation",
+    "resource": "process",
+    "subject": "process:unknown",
+    "template_id": "process_control"
+  },
+  "ntterminatethread": {
+    "context": "persistent_object_context",
+    "goal": "data_collection",
+    "object": "<FILE_OBJECT>",
+    "operation": "file_read",
+    "resource": "file",
+    "subject": "process:unknown",
+    "template_id": "file_read"
+  },
+  "ntunmapviewofsection": {
+    "context": "runtime_loading_context",
+    "goal": "payload_preparation",
+    "object": "<MEMORY_REGION_OR_DLL>",
+    "operation": "memory_or_library",
+    "resource": "memory",
+    "subject": "process:unknown",
+    "template_id": "memory_exec"
+  },
+  "ntwritefile": {
+    "context": "persistent_object_context",
+    "goal": "filesystem_modification",
+    "object": "<FILE_OBJECT>",
+    "operation": "file_update",
+    "resource": "file",
+    "subject": "process:unknown",
+    "template_id": "file_write"
+  },
+  "ntwritevirtualmemory": {
+    "context": "persistent_object_context",
+    "goal": "filesystem_modification",
+    "object": "<FILE_OBJECT>",
+    "operation": "file_update",
+    "resource": "file",
+    "subject": "process:unknown",
+    "template_id": "file_write"
+  },
+  "rtladdvectoredcontinuehandler": {
+    "context": "local_process_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "rtladdvectoredexceptionhandler": {
+    "context": "extended_or_remote_context",
+    "goal": "execution_context",
+    "object": "<SYSTEM_OBJECT>",
+    "operation": "system_call",
+    "resource": "system",
+    "subject": "process:unknown",
+    "template_id": "generic_call"
+  },
+  "rtlcreateuserthread": {
+    "context": "persistent_object_context",
+    "goal": "data_collection",
+    "object": "<FILE_OBJECT>",
+    "operation": "file_read",
+    "resource": "file",
+    "subject": "process:unknown",
+    "template_id": "file_read"
+  },
+  "rtlremovevectoredexceptionhandler": {
+    "context": "extended_or_remote_context",
+    "goal": "filesystem_modification",
+    "object": "<FILE_OBJECT>",
+    "operation": "file_update",
+    "resource": "file",
+    "subject": "process:unknown",
+    "template_id": "file_write"
+  }
+}

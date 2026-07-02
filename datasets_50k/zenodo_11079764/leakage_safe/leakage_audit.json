@@ -1,0 +1,45 @@
+{
+  "confirmatory": {
+    "pairwise_overlap": {
+      "train_test": {
+        "exact_sequence_groups": 0,
+        "source_groups": 0
+      },
+      "train_val": {
+        "exact_sequence_groups": 0,
+        "source_groups": 0
+      },
+      "val_test": {
+        "exact_sequence_groups": 0,
+        "source_groups": 0
+      }
+    },
+    "test_rows_with_train_group": 0,
+    "test_rows_with_train_sequence": 0
+  },
+  "dataset": "zenodo_11079764",
+  "grouping_key": "source SHA before the first colon in sample_id",
+  "invariants": {
+    "exact_sequence_overlap_is_zero": true,
+    "source_group_overlap_is_zero": true
+  },
+  "preliminary": {
+    "pairwise_overlap": {
+      "train_test": {
+        "exact_sequence_groups": 678,
+        "source_groups": 1927
+      },
+      "train_val": {
+        "exact_sequence_groups": 676,
+        "source_groups": 1941
+      },
+      "val_test": {
+        "exact_sequence_groups": 330,
+        "source_groups": 1787
+      }
+    },
+    "test_rows_with_train_group": 7490,
+    "test_rows_with_train_sequence": 1799
+  },
+  "sequence_hash": "sha256 over length-prefixed UTF-8 API names"
+}

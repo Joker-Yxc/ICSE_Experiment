@@ -1,0 +1,11 @@
+CreateProcess OpenProcess VirtualAllocEx WriteProcessMemory CreateRemoteThread
+CreateFile WriteFile SetFileAttributes MoveFile DeleteFile
+RegOpenKey RegSetValue CreateService StartService OpenProcess
+InternetOpen InternetConnect HttpOpenRequest HttpSendRequest WriteFile
+OpenProcess ReadProcessMemory VirtualAlloc WriteProcessMemory CreateThread
+CreateFile MapViewOfFile VirtualProtect WriteFile CloseHandle
+GetAsyncKeyState GetForegroundWindow WriteFile InternetConnect Send
+CreateToolhelp32Snapshot Process32First Process32Next OpenProcess TerminateProcess
+RegCreateKey RegSetValue CreateProcess OpenProcess WriteFile
+Socket Connect Send Recv CreateFile WriteFile CloseHandle
+

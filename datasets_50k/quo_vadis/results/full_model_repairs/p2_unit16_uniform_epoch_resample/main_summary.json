@@ -1,0 +1,21 @@
+{
+  "runs": 1,
+  "groups": [
+    {
+      "variant": "full",
+      "accuracy_mean": 0.8562814070351759,
+      "accuracy_std": 0.0,
+      "precision_mean": 0.68561872909699,
+      "precision_std": 0.0,
+      "recall_mean": 0.8070866141732284,
+      "recall_std": 0.0,
+      "f1_mean": 0.7414104882459313,
+      "f1_std": 0.0,
+      "auc_mean": 0.9005865663553189,
+      "auc_std": 0.0,
+      "seeds": [
+        7
+      ]
+    }
+  ]
+}

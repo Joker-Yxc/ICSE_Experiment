@@ -1,0 +1,21 @@
+{
+  "runs": 1,
+  "groups": [
+    {
+      "variant": "wo_interleaving_prior_in_gating",
+      "accuracy_mean": 0.9417333333333333,
+      "accuracy_std": 0.0,
+      "precision_mean": 0.9353482260183968,
+      "precision_std": 0.0,
+      "recall_mean": 0.9490666666666666,
+      "recall_std": 0.0,
+      "f1_mean": 0.942157511581734,
+      "f1_std": 0.0,
+      "auc_mean": 0.9797083022222224,
+      "auc_std": 0.0,
+      "seeds": [
+        7
+      ]
+    }
+  ]
+}

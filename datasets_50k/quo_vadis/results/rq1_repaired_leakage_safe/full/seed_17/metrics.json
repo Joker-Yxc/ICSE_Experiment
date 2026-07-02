@@ -1,0 +1,291 @@
+{
+  "method": "escapture_dual_view",
+  "objective": "bce",
+  "variant": "full",
+  "held_out_family": null,
+  "seed": 17,
+  "status": "ok",
+  "data": "datasets_50k/quo_vadis/leakage_safe/quo_vadis_leakage_safe.jsonl.gz",
+  "split_policy": "existing compact JSONL.GZ split field used verbatim",
+  "split_counts": {
+    "train": 4647,
+    "val": 994,
+    "test": 995
+  },
+  "config": {
+    "semantic_mode": "llm_template",
+    "use_sequence_view": true,
+    "use_graph_view": true,
+    "prior_mode": "real",
+    "hard_switching": false,
+    "use_gating_prior": true,
+    "use_structural_bias": true,
+    "use_relation_features": true,
+    "weighting_mode": "softmax",
+    "lambda_pref": 0.1,
+    "beta": 1.0,
+    "gating_temperature": 1.0,
+    "max_units": 16,
+    "unit_selection": "uniform-cover",
+    "benign_sampling": "epoch-resample",
+    "objective": "bce"
+  },
+  "hardware": {
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "python": "3.12.13",
+    "torch": "2.12.0",
+    "device": "cpu",
+    "cpu": "arm"
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.5022542232553114,
+      "preference_loss": 0.057798379080767265,
+      "val_f1": 0.7404426559356136,
+      "threshold": 0.8297069904906675,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.4231943456560442,
+      "preference_loss": 0.0047080084401199505,
+      "val_f1": 0.7478260869565218,
+      "threshold": 0.9723535792777936,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.3834581626108057,
+      "preference_loss": 0.0008645502026639153,
+      "val_f1": 0.7552182163187856,
+      "threshold": 0.9026631450117565,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.3493003453871726,
+      "preference_loss": 0.00018897594863351302,
+      "val_f1": 0.7513812154696132,
+      "threshold": 0.7630263269382218,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.33074679743297614,
+      "preference_loss": 3.829724128802056e-05,
+      "val_f1": 0.7603305785123967,
+      "threshold": 0.85647532957412,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.31050213354163625,
+      "preference_loss": 5.845377898138953e-06,
+      "val_f1": 0.7428571428571429,
+      "threshold": 0.966524186131816,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.29209073428847077,
+      "preference_loss": 1.1439189871222011e-06,
+      "val_f1": 0.7701863354037267,
+      "threshold": 0.470214535567793,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.27080195253399975,
+      "preference_loss": 1.662013240367916e-07,
+      "val_f1": 0.7758620689655172,
+      "threshold": 0.9799707051287988,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.25763327823572363,
+      "preference_loss": 3.143375287153316e-08,
+      "val_f1": 0.780045351473923,
+      "threshold": 0.9866355865059693,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.2288813962266054,
+      "preference_loss": 7.723410569535859e-09,
+      "val_f1": 0.7837259100642399,
+      "threshold": 0.8633347851353876,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.2191313277168781,
+      "preference_loss": 3.0019491014643965e-06,
+      "val_f1": 0.7913043478260869,
+      "threshold": 0.9666630528615011,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.19031624541569483,
+      "preference_loss": 2.48028455556048e-08,
+      "val_f1": 0.7817460317460317,
+      "threshold": 0.9366657523697631,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.16510742258172606,
+      "preference_loss": 1.2077041388011813e-08,
+      "val_f1": 0.8055555555555556,
+      "threshold": 0.5500039795412249,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.15671547118155743,
+      "preference_loss": 6.183223589574337e-09,
+      "val_f1": 0.790224032586558,
+      "threshold": 0.9466665974669013,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.14205209022277498,
+      "preference_loss": 4.234989746923758e-09,
+      "val_f1": 0.7822736030828517,
+      "threshold": 0.08666812181006739,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.12545570970219888,
+      "preference_loss": 3.035049840531618e-09,
+      "val_f1": 0.780952380952381,
+      "threshold": 0.08333441267545065,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.11903679589066932,
+      "preference_loss": 2.3874240195974175e-09,
+      "val_f1": 0.7902869757174393,
+      "threshold": 0.9933333373196035,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.10154841777602165,
+      "preference_loss": 2.3007173285599896e-09,
+      "val_f1": 0.7941787941787942,
+      "threshold": 0.8233334267311678,
+      "training_pairs": 3462,
+      "unique_benign_seen": 3462,
+      "unique_attacks_seen": 1185
+    }
+  ],
+  "validation": {
+    "accuracy": 0.9014084507042254,
+    "precision": 0.8087649402390438,
+    "recall": 0.8023715415019763,
+    "f1": 0.8055555555555556,
+    "auc": 0.9264747456967136,
+    "threshold": 0.5500039795412249,
+    "tp": 203,
+    "fp": 48,
+    "fn": 50,
+    "tn": 693
+  },
+  "test": {
+    "accuracy": 0.8984924623115578,
+    "precision": 0.8430493273542601,
+    "recall": 0.7401574803149606,
+    "f1": 0.7882599580712788,
+    "auc": 0.9225482695229898,
+    "threshold": 0.5500039795412249,
+    "tp": 188,
+    "fp": 35,
+    "fn": 66,
+    "tn": 706
+  },
+  "efficiency": {
+    "data_loading_seconds": 0.12881824999931268,
+    "vocabulary_and_mapper_seconds": 1.0936914999911096,
+    "train_cache_entries": 2180,
+    "train_cache_bytes": 607495,
+    "semantic_extraction_seconds": 2.9512637087027542,
+    "sequence_truncation_seconds": 0.005278923606965691,
+    "behavior_unit_construction_seconds": 1.034172780578956,
+    "cache_hit_profile_seconds": 2.794666750007309,
+    "cache_hit_profile_ms_per_sample": 0.4211372438226807,
+    "training_seconds": 3312.902751000016,
+    "epochs_run": 18,
+    "validation_inference_seconds": 9.48465391699574,
+    "test_inference_seconds": 12.113303167017875,
+    "test_latency_ms_per_sample": 12.174174037203894,
+    "test_throughput_samples_per_second": 82.1410961387632,
+    "graph_construction_seconds": 7.044460500008427,
+    "graphs_constructed": 89654,
+    "peak_rss_mb": 612.375,
+    "gpu_peak_memory_mb": null,
+    "parameter_count": 296693,
+    "checkpoint_bytes": 1342348,
+    "cache_bytes": 607495
+  },
+  "checkpoint": "datasets_50k/quo_vadis/results/rq1_repaired_leakage_safe/full/seed_17/best_model.pt",
+  "view_weight_summary": {
+    "c0": {
+      "count": 112520,
+      "mean": 5.0860698621839775e-09,
+      "median": 6.758368864545616e-10,
+      "q1": 1.9339299606180305e-10,
+      "q3": 2.2294781576448486e-09,
+      "iqr": 2.0360851615830455e-09,
+      "std": 2.2705942888927306e-08
+    },
+    "c1": {
+      "count": 87762,
+      "mean": 0.9999999970266273,
+      "median": 1.0,
+      "q1": 1.0,
+      "q3": 1.0,
+      "iqr": 0.0,
+      "std": 2.516972799388198e-08
+    }
+  }
+}

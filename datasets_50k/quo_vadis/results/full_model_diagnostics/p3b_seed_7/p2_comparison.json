@@ -1,0 +1,111 @@
+{
+  "reference_diagnosis": "datasets_50k/quo_vadis/results/full_model_diagnostics/p2_after_seed_7/diagnosis.json",
+  "current_diagnosis": "datasets_50k/quo_vadis/results/full_model_diagnostics/p3b_seed_7/diagnosis.json",
+  "rows": [
+    {
+      "scope": "overall",
+      "measure": "accuracy",
+      "before": 0.8562814070351759,
+      "after": 0.8854271356783919,
+      "delta": 0.029145728643216073
+    },
+    {
+      "scope": "overall",
+      "measure": "precision",
+      "before": 0.68561872909699,
+      "after": 0.8153153153153153,
+      "delta": 0.12969658621832536
+    },
+    {
+      "scope": "overall",
+      "measure": "recall",
+      "before": 0.8070866141732284,
+      "after": 0.7125984251968503,
+      "delta": -0.09448818897637801
+    },
+    {
+      "scope": "overall",
+      "measure": "f1",
+      "before": 0.7414104882459313,
+      "after": 0.7605042016806722,
+      "delta": 0.019093713434740978
+    },
+    {
+      "scope": "overall",
+      "measure": "auc",
+      "before": 0.9005865663553189,
+      "after": 0.8974013622791079,
+      "delta": -0.0031852040762109235
+    },
+    {
+      "scope": "overall",
+      "measure": "retained_call_median_coverage",
+      "before": 1.0,
+      "after": 1.0,
+      "delta": 0.0
+    },
+    {
+      "scope": "overall",
+      "measure": "false_positives",
+      "before": 94,
+      "after": 41,
+      "delta": -53.0
+    },
+    {
+      "scope": "overall",
+      "measure": "false_negatives",
+      "before": 49,
+      "after": 73,
+      "delta": 24.0
+    },
+    {
+      "scope": "family:backdoor",
+      "measure": "recall",
+      "before": 0.8,
+      "after": 0.65,
+      "delta": -0.15000000000000002
+    },
+    {
+      "scope": "family:coinminer",
+      "measure": "recall",
+      "before": 0.625,
+      "after": 0.3333333333333333,
+      "delta": -0.2916666666666667
+    },
+    {
+      "scope": "family:dropper",
+      "measure": "recall",
+      "before": 0.7142857142857143,
+      "after": 0.6071428571428571,
+      "delta": -0.1071428571428572
+    },
+    {
+      "scope": "family:keylogger",
+      "measure": "recall",
+      "before": 0.7333333333333333,
+      "after": 0.6666666666666666,
+      "delta": -0.06666666666666665
+    },
+    {
+      "scope": "family:ransomware",
+      "measure": "recall",
+      "before": 0.9396551724137931,
+      "after": 0.9482758620689655,
+      "delta": 0.008620689655172376
+    },
+    {
+      "scope": "family:rat",
+      "measure": "recall",
+      "before": 0.5,
+      "after": 0.16666666666666666,
+      "delta": -0.33333333333333337
+    },
+    {
+      "scope": "family:trojan",
+      "measure": "recall",
+      "before": 0.717948717948718,
+      "after": 0.5384615384615384,
+      "delta": -0.17948717948717952
+    }
+  ]
+}

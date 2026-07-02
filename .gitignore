@@ -1,0 +1,46 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Downloaded source data (recreate with experiments/data_preparation/)
+datasets_50k/*/data/raw/
+
+# Transient experiment output
+runs/
+*.log
+*.err
+
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc
+

@@ -1,0 +1,544 @@
+{
+  "metrics": [
+    {
+      "method": "p2_dsvdd",
+      "accuracy": 0.8562814070351759,
+      "precision": 0.68561872909699,
+      "recall": 0.8070866141732284,
+      "f1": 0.7414104882459313,
+      "auc": 0.9005865663553189,
+      "threshold": -2.5296132759656746,
+      "fp": 94,
+      "fn": 49,
+      "tp": 205,
+      "tn": 647
+    },
+    {
+      "method": "p3a_dsvdd",
+      "accuracy": 0.8391959798994975,
+      "precision": 0.6477987421383647,
+      "recall": 0.8110236220472441,
+      "f1": 0.7202797202797203,
+      "auc": 0.8497933203693667,
+      "threshold": -0.03452210186961224,
+      "fp": 112,
+      "fn": 48,
+      "tp": 206,
+      "tn": 629
+    },
+    {
+      "method": "p3b_bce",
+      "accuracy": 0.8854271356783919,
+      "precision": 0.8153153153153153,
+      "recall": 0.7125984251968503,
+      "f1": 0.7605042016806722,
+      "auc": 0.8974013622791079,
+      "threshold": 0.7166668366757828,
+      "fp": 41,
+      "fn": 73,
+      "tp": 181,
+      "tn": 700
+    },
+    {
+      "method": "api_ngram_svm",
+      "accuracy": 0.9105527638190954,
+      "precision": 0.8313253012048193,
+      "recall": 0.8149606299212598,
+      "f1": 0.8230616302186878,
+      "auc": 0.9558932916786211,
+      "threshold": 0.5069861948188265,
+      "fp": 42,
+      "fn": 47,
+      "tp": 207,
+      "tn": 699
+    }
+  ],
+  "family_recall": [
+    {
+      "family": "backdoor",
+      "method": "p2_dsvdd",
+      "support": 20,
+      "malware_support": 20,
+      "correct": 16,
+      "accuracy": 0.8,
+      "recall": 0.8
+    },
+    {
+      "family": "benign",
+      "method": "p2_dsvdd",
+      "support": 741,
+      "malware_support": 0,
+      "correct": 647,
+      "accuracy": 0.873144399460189,
+      "recall": null
+    },
+    {
+      "family": "coinminer",
+      "method": "p2_dsvdd",
+      "support": 24,
+      "malware_support": 24,
+      "correct": 15,
+      "accuracy": 0.625,
+      "recall": 0.625
+    },
+    {
+      "family": "dropper",
+      "method": "p2_dsvdd",
+      "support": 28,
+      "malware_support": 28,
+      "correct": 20,
+      "accuracy": 0.7142857142857143,
+      "recall": 0.7142857142857143
+    },
+    {
+      "family": "keylogger",
+      "method": "p2_dsvdd",
+      "support": 15,
+      "malware_support": 15,
+      "correct": 11,
+      "accuracy": 0.7333333333333333,
+      "recall": 0.7333333333333333
+    },
+    {
+      "family": "ransomware",
+      "method": "p2_dsvdd",
+      "support": 116,
+      "malware_support": 116,
+      "correct": 109,
+      "accuracy": 0.9396551724137931,
+      "recall": 0.9396551724137931
+    },
+    {
+      "family": "rat",
+      "method": "p2_dsvdd",
+      "support": 12,
+      "malware_support": 12,
+      "correct": 6,
+      "accuracy": 0.5,
+      "recall": 0.5
+    },
+    {
+      "family": "trojan",
+      "method": "p2_dsvdd",
+      "support": 39,
+      "malware_support": 39,
+      "correct": 28,
+      "accuracy": 0.717948717948718,
+      "recall": 0.717948717948718
+    },
+    {
+      "family": "backdoor",
+      "method": "p3a_dsvdd",
+      "support": 20,
+      "malware_support": 20,
+      "correct": 16,
+      "accuracy": 0.8,
+      "recall": 0.8
+    },
+    {
+      "family": "benign",
+      "method": "p3a_dsvdd",
+      "support": 741,
+      "malware_support": 0,
+      "correct": 629,
+      "accuracy": 0.8488529014844804,
+      "recall": null
+    },
+    {
+      "family": "coinminer",
+      "method": "p3a_dsvdd",
+      "support": 24,
+      "malware_support": 24,
+      "correct": 13,
+      "accuracy": 0.5416666666666666,
+      "recall": 0.5416666666666666
+    },
+    {
+      "family": "dropper",
+      "method": "p3a_dsvdd",
+      "support": 28,
+      "malware_support": 28,
+      "correct": 20,
+      "accuracy": 0.7142857142857143,
+      "recall": 0.7142857142857143
+    },
+    {
+      "family": "keylogger",
+      "method": "p3a_dsvdd",
+      "support": 15,
+      "malware_support": 15,
+      "correct": 9,
+      "accuracy": 0.6,
+      "recall": 0.6
+    },
+    {
+      "family": "ransomware",
+      "method": "p3a_dsvdd",
+      "support": 116,
+      "malware_support": 116,
+      "correct": 110,
+      "accuracy": 0.9482758620689655,
+      "recall": 0.9482758620689655
+    },
+    {
+      "family": "rat",
+      "method": "p3a_dsvdd",
+      "support": 12,
+      "malware_support": 12,
+      "correct": 8,
+      "accuracy": 0.6666666666666666,
+      "recall": 0.6666666666666666
+    },
+    {
+      "family": "trojan",
+      "method": "p3a_dsvdd",
+      "support": 39,
+      "malware_support": 39,
+      "correct": 30,
+      "accuracy": 0.7692307692307693,
+      "recall": 0.7692307692307693
+    },
+    {
+      "family": "backdoor",
+      "method": "p3b_bce",
+      "support": 20,
+      "malware_support": 20,
+      "correct": 13,
+      "accuracy": 0.65,
+      "recall": 0.65
+    },
+    {
+      "family": "benign",
+      "method": "p3b_bce",
+      "support": 741,
+      "malware_support": 0,
+      "correct": 700,
+      "accuracy": 0.9446693657219973,
+      "recall": null
+    },
+    {
+      "family": "coinminer",
+      "method": "p3b_bce",
+      "support": 24,
+      "malware_support": 24,
+      "correct": 8,
+      "accuracy": 0.3333333333333333,
+      "recall": 0.3333333333333333
+    },
+    {
+      "family": "dropper",
+      "method": "p3b_bce",
+      "support": 28,
+      "malware_support": 28,
+      "correct": 17,
+      "accuracy": 0.6071428571428571,
+      "recall": 0.6071428571428571
+    },
+    {
+      "family": "keylogger",
+      "method": "p3b_bce",
+      "support": 15,
+      "malware_support": 15,
+      "correct": 10,
+      "accuracy": 0.6666666666666666,
+      "recall": 0.6666666666666666
+    },
+    {
+      "family": "ransomware",
+      "method": "p3b_bce",
+      "support": 116,
+      "malware_support": 116,
+      "correct": 110,
+      "accuracy": 0.9482758620689655,
+      "recall": 0.9482758620689655
+    },
+    {
+      "family": "rat",
+      "method": "p3b_bce",
+      "support": 12,
+      "malware_support": 12,
+      "correct": 2,
+      "accuracy": 0.16666666666666666,
+      "recall": 0.16666666666666666
+    },
+    {
+      "family": "trojan",
+      "method": "p3b_bce",
+      "support": 39,
+      "malware_support": 39,
+      "correct": 21,
+      "accuracy": 0.5384615384615384,
+      "recall": 0.5384615384615384
+    },
+    {
+      "family": "backdoor",
+      "method": "api_ngram_svm",
+      "support": 20,
+      "malware_support": 20,
+      "correct": 16,
+      "accuracy": 0.8,
+      "recall": 0.8
+    },
+    {
+      "family": "benign",
+      "method": "api_ngram_svm",
+      "support": 741,
+      "malware_support": 0,
+      "correct": 699,
+      "accuracy": 0.9433198380566802,
+      "recall": null
+    },
+    {
+      "family": "coinminer",
+      "method": "api_ngram_svm",
+      "support": 24,
+      "malware_support": 24,
+      "correct": 17,
+      "accuracy": 0.7083333333333334,
+      "recall": 0.7083333333333334
+    },
+    {
+      "family": "dropper",
+      "method": "api_ngram_svm",
+      "support": 28,
+      "malware_support": 28,
+      "correct": 19,
+      "accuracy": 0.6785714285714286,
+      "recall": 0.6785714285714286
+    },
+    {
+      "family": "keylogger",
+      "method": "api_ngram_svm",
+      "support": 15,
+      "malware_support": 15,
+      "correct": 9,
+      "accuracy": 0.6,
+      "recall": 0.6
+    },
+    {
+      "family": "ransomware",
+      "method": "api_ngram_svm",
+      "support": 116,
+      "malware_support": 116,
+      "correct": 109,
+      "accuracy": 0.9396551724137931,
+      "recall": 0.9396551724137931
+    },
+    {
+      "family": "rat",
+      "method": "api_ngram_svm",
+      "support": 12,
+      "malware_support": 12,
+      "correct": 5,
+      "accuracy": 0.4166666666666667,
+      "recall": 0.4166666666666667
+    },
+    {
+      "family": "trojan",
+      "method": "api_ngram_svm",
+      "support": 39,
+      "malware_support": 39,
+      "correct": 32,
+      "accuracy": 0.8205128205128205,
+      "recall": 0.8205128205128205
+    }
+  ],
+  "score_distributions": {
+    "p2_dsvdd": {
+      "threshold": -2.5296132759656746,
+      "overall": {
+        "count": 995,
+        "mean": -4.106850861585404,
+        "std": 2.9713988975172203,
+        "min": -10.596653938293457,
+        "q1": -6.678198575973511,
+        "median": -4.891349792480469,
+        "q3": -0.00021247332188067958,
+        "max": -2.6787289243657142e-05
+      },
+      "benign": {
+        "count": 741,
+        "mean": -5.200890713939976,
+        "std": 2.415941874419123,
+        "min": -10.596653938293457,
+        "q1": -6.981159687042236,
+        "median": -6.027883529663086,
+        "q3": -3.693070888519287,
+        "max": -2.6787289243657142e-05
+      },
+      "malware": {
+        "count": 254,
+        "mean": -0.915183418299034,
+        "std": 1.9699141138360725,
+        "min": -9.123757362365723,
+        "q1": -0.0011291597329545766,
+        "median": -6.356719313771464e-05,
+        "q3": -5.1803434871544596e-05,
+        "max": -3.591583663364872e-05
+      },
+      "margin_from_threshold": {
+        "count": 995,
+        "mean": -1.5772375856197292,
+        "std": 2.9713988975172203,
+        "min": -8.067040662327782,
+        "q1": -4.148585300007836,
+        "median": -2.361736516514794,
+        "q3": 2.529400802643794,
+        "max": 2.529586488676431
+      }
+    },
+    "p3a_dsvdd": {
+      "threshold": -0.03452210186961224,
+      "overall": {
+        "count": 995,
+        "mean": -3.179292554886448,
+        "std": 2.6360226137338625,
+        "min": -9.398998260498047,
+        "q1": -5.423016786575317,
+        "median": -3.4042019844055176,
+        "q3": -0.0010581559618003666,
+        "max": -0.0002317136386409402
+      },
+      "benign": {
+        "count": 741,
+        "mean": -4.046035012890101,
+        "std": 2.354703857665008,
+        "min": -9.398998260498047,
+        "q1": -5.8174729347229,
+        "median": -4.353545188903809,
+        "q3": -2.7253077030181885,
+        "max": -0.00024354497145395726
+      },
+      "malware": {
+        "count": 254,
+        "mean": -0.6507249903954762,
+        "std": 1.5681906189495043,
+        "min": -8.555166244506836,
+        "q1": -0.0015441177820321172,
+        "median": -0.0008296118467114866,
+        "q3": -0.0005594357935478911,
+        "max": -0.0002317136386409402
+      },
+      "margin_from_threshold": {
+        "count": 995,
+        "mean": -3.144770453016836,
+        "std": 2.6360226137338625,
+        "min": -9.364476158628435,
+        "q1": -5.388494684705705,
+        "median": -3.3696798825359053,
+        "q3": 0.033463945907811876,
+        "max": 0.0342903882309713
+      }
+    },
+    "p3b_bce": {
+      "threshold": 0.7166668366757828,
+      "overall": {
+        "count": 995,
+        "mean": 0.23440367194238224,
+        "std": 0.40993763517256365,
+        "min": 2.0235360352671705e-05,
+        "q1": 7.574762639706023e-05,
+        "median": 0.00029486659332178533,
+        "q3": 0.11152001097798347,
+        "max": 0.9999932050704956
+      },
+      "benign": {
+        "count": 741,
+        "mean": 0.06402455972959353,
+        "std": 0.2235348106001681,
+        "min": 2.0235360352671705e-05,
+        "q1": 5.997914922772907e-05,
+        "median": 0.00014273272245191038,
+        "q3": 0.0009843675652518868,
+        "max": 0.9999659061431885
+      },
+      "malware": {
+        "count": 254,
+        "mean": 0.7314545465474076,
+        "std": 0.4251855581141924,
+        "min": 2.194963781221304e-05,
+        "q1": 0.27080875635147095,
+        "median": 0.999868631362915,
+        "q3": 0.999983161687851,
+        "max": 0.9999932050704956
+      },
+      "margin_from_threshold": {
+        "count": 995,
+        "mean": -0.4822631647334006,
+        "std": 0.40993763517256365,
+        "min": -0.7166466013154301,
+        "q1": -0.7165910890493857,
+        "median": -0.716371970082461,
+        "q3": -0.6051468256977993,
+        "max": 0.2833263683947128
+      }
+    },
+    "api_ngram_svm": {
+      "threshold": 0.5069861948188265,
+      "overall": {
+        "count": 995,
+        "mean": 0.3981954750032923,
+        "std": 0.17924780086263192,
+        "min": 0.14607923332405662,
+        "q1": 0.26349233434861985,
+        "median": 0.32586700489571935,
+        "q3": 0.5060225331269783,
+        "max": 0.8290583482395731
+      },
+      "benign": {
+        "count": 741,
+        "mean": 0.3150082008259099,
+        "std": 0.10058673706367928,
+        "min": 0.14607923332405662,
+        "q1": 0.24589223437524504,
+        "median": 0.29180810284480185,
+        "q3": 0.3653893750968327,
+        "max": 0.8290583482395731
+      },
+      "malware": {
+        "count": 254,
+        "mean": 0.6408796095128995,
+        "std": 0.1313860878427077,
+        "min": 0.2411542858460616,
+        "q1": 0.5592500261078215,
+        "median": 0.7015926258434126,
+        "q3": 0.7433601781635679,
+        "max": 0.7999863105352483
+      },
+      "margin_from_threshold": {
+        "count": 995,
+        "mean": -0.10879071981553422,
+        "std": 0.17924780086263192,
+        "min": -0.36090696149476986,
+        "q1": -0.24349386047020663,
+        "median": -0.1811191899231071,
+        "q3": -0.0009636616918481389,
+        "max": 0.3220721534207467
+      }
+    }
+  },
+  "evidence": {
+    "p3a_vs_p2": {
+      "precision": -0.03781998695862521,
+      "recall": 0.003937007874015741,
+      "f1": -0.02113076796621094,
+      "auc": -0.05079324598595214,
+      "fp": 18,
+      "fn": -1
+    },
+    "p3b_vs_p2": {
+      "precision": 0.12969658621832536,
+      "recall": -0.09448818897637801,
+      "f1": 0.019093713434740978,
+      "auc": -0.0031852040762109235,
+      "fp": -53,
+      "fn": 24
+    },
+    "dsvdd_bottleneck_assessment": "The supervised BCE head materially improves F1 and precision and reduces false positives relative to P2 DSVDD, so DSVDD is a material bottleneck. Because BCE remains below the n-gram SVM and loses recall, the objective is not the only bottleneck."
+  },
+  "inputs": [
+    "p2_dsvdd=datasets_50k/quo_vadis/results/full_model_diagnostics/p2_after_seed_7/diagnosis.json",
+    "p3a_dsvdd=datasets_50k/quo_vadis/results/full_model_diagnostics/p3a_seed_7/diagnosis.json",
+    "p3b_bce=datasets_50k/quo_vadis/results/full_model_diagnostics/p3b_seed_7/diagnosis.json"
+  ]
+}

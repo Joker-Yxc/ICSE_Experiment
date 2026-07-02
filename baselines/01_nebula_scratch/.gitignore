@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints
+.DS_Store
+.vscode
+*egg-info
+build/*
+.markdownlint.json
+
+# research files
+z_out*
+
+# Data
+data/*
+*7z
+*zip
+*npy
+*npz
+events.out.tfevents.*
+
+# models and objects
+*.ckpt
+*.torch
+*.pickle
+*.pkl
+*.model

@@ -1,0 +1,19 @@
+{
+  "method": "ours",
+  "status": "ok",
+  "epochs_run": 0,
+  "best_val_f1": 0.955649419218585,
+  "threshold": 0.43499999999999994,
+  "runtime_seconds": 21.492,
+  "model": "tfidf_word_1_4_sgd_alpha_1e-6",
+  "val_accuracy": 0.9552,
+  "val_precision": 0.9461578672242551,
+  "val_recall": 0.9653333333333334,
+  "val_f1": 0.955649419218585,
+  "val_auc": 0.98839296,
+  "test_accuracy": 0.9512,
+  "test_precision": 0.9431639601885804,
+  "test_recall": 0.9602666666666667,
+  "test_f1": 0.9516384778012685,
+  "test_auc": 0.9873961955555556
+}

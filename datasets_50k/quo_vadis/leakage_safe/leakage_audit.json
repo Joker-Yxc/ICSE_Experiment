@@ -1,0 +1,45 @@
+{
+  "confirmatory": {
+    "pairwise_overlap": {
+      "train_test": {
+        "exact_sequence_groups": 0,
+        "source_groups": 0
+      },
+      "train_val": {
+        "exact_sequence_groups": 0,
+        "source_groups": 0
+      },
+      "val_test": {
+        "exact_sequence_groups": 0,
+        "source_groups": 0
+      }
+    },
+    "test_rows_with_train_group": 0,
+    "test_rows_with_train_sequence": 0
+  },
+  "dataset": "quo_vadis",
+  "grouping_key": "normalized Quo Vadis report identity/SHA",
+  "invariants": {
+    "exact_sequence_overlap_is_zero": true,
+    "source_group_overlap_is_zero": true
+  },
+  "preliminary": {
+    "pairwise_overlap": {
+      "train_test": {
+        "exact_sequence_groups": 1227,
+        "source_groups": 17
+      },
+      "train_val": {
+        "exact_sequence_groups": 1255,
+        "source_groups": 13
+      },
+      "val_test": {
+        "exact_sequence_groups": 828,
+        "source_groups": 3
+      }
+    },
+    "test_rows_with_train_group": 17,
+    "test_rows_with_train_sequence": 6753
+  },
+  "sequence_hash": "sha256 over length-prefixed UTF-8 API names"
+}

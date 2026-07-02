@@ -1,0 +1,167 @@
+{
+  "method": "escapture_dual_view",
+  "variant": "wo_structural_bias_in_attention",
+  "held_out_family": null,
+  "seed": 17,
+  "status": "ok",
+  "data": "datasets_50k/quo_vadis/leakage_safe/quo_vadis_leakage_safe.jsonl.gz",
+  "split_policy": "existing compact JSONL.GZ split field used verbatim",
+  "split_counts": {
+    "train": 4647,
+    "val": 994,
+    "test": 995
+  },
+  "config": {
+    "semantic_mode": "llm_template",
+    "use_sequence_view": true,
+    "use_graph_view": true,
+    "prior_mode": "real",
+    "hard_switching": false,
+    "use_gating_prior": true,
+    "use_structural_bias": false,
+    "use_relation_features": true,
+    "weighting_mode": "softmax",
+    "lambda_pref": 0.1
+  },
+  "hardware": {
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "python": "3.12.13",
+    "torch": "2.12.0",
+    "device": "cpu",
+    "cpu": "arm"
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.3247375728130213,
+      "preference_loss": 0.15605825234267404,
+      "val_f1": 0.6403508771929824,
+      "threshold": -0.03171457534035049
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.9552755015906151,
+      "preference_loss": 0.0335149475330593,
+      "val_f1": 0.6507592190889371,
+      "threshold": -0.05277046709631872
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.8277211124509698,
+      "preference_loss": 0.020722012219651906,
+      "val_f1": 0.6690647482014388,
+      "threshold": -0.49915565002554274
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.707443422530208,
+      "preference_loss": 0.013667910434978617,
+      "val_f1": 0.6936170212765957,
+      "threshold": -0.08026206699199978
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.6736568381820751,
+      "preference_loss": 0.012710743664179581,
+      "val_f1": 0.6860986547085202,
+      "threshold": -0.03161909065519808
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.6249673633638746,
+      "preference_loss": 0.008391358839806743,
+      "val_f1": 0.6902985074626866,
+      "threshold": -0.3694027147333445
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.600236974765138,
+      "preference_loss": 0.008020922505840284,
+      "val_f1": 0.69140625,
+      "threshold": -0.5701589760166836
+    },
+    {
+      "epoch": 8,
+      "train_loss": 1.6371126086766958,
+      "preference_loss": 0.003512420534114326,
+      "val_f1": 0.6506986027944112,
+      "threshold": -0.03195960676763221
+    },
+    {
+      "epoch": 9,
+      "train_loss": 1.5757522894762395,
+      "preference_loss": 0.0062587968789738,
+      "val_f1": 0.6921529175050302,
+      "threshold": -0.1055893751722774
+    }
+  ],
+  "validation": {
+    "accuracy": 0.8551307847082495,
+    "precision": 0.7511520737327189,
+    "recall": 0.6442687747035574,
+    "f1": 0.6936170212765957,
+    "auc": 0.8678849754364628,
+    "threshold": -0.08026206699199978,
+    "tp": 163,
+    "fp": 54,
+    "fn": 90,
+    "tn": 687
+  },
+  "test": {
+    "accuracy": 0.857286432160804,
+    "precision": 0.7616822429906542,
+    "recall": 0.6417322834645669,
+    "f1": 0.6965811965811965,
+    "auc": 0.8642449552105582,
+    "threshold": -0.08026206699199978,
+    "tp": 163,
+    "fp": 51,
+    "fn": 91,
+    "tn": 690
+  },
+  "efficiency": {
+    "data_loading_seconds": 0.09348450001562014,
+    "vocabulary_and_mapper_seconds": 0.9621694999805186,
+    "train_cache_entries": 2180,
+    "train_cache_bytes": 607495,
+    "semantic_extraction_seconds": 2.568268343398813,
+    "sequence_truncation_seconds": 0.0057930886396206915,
+    "behavior_unit_construction_seconds": 0.25937568393419497,
+    "cache_hit_profile_seconds": 2.5716301659995224,
+    "cache_hit_profile_ms_per_sample": 0.3875271497889576,
+    "training_seconds": 188.92455962501117,
+    "epochs_run": 9,
+    "validation_inference_seconds": 1.9644877500250004,
+    "test_inference_seconds": 2.256341083004372,
+    "test_latency_ms_per_sample": 2.267679480406404,
+    "test_throughput_samples_per_second": 440.9794279307868,
+    "graph_construction_seconds": 0.18470583300222643,
+    "graphs_constructed": 29179,
+    "peak_rss_mb": 581.5,
+    "gpu_peak_memory_mb": null,
+    "parameter_count": 297652,
+    "checkpoint_bytes": 1345354,
+    "cache_bytes": 607495
+  },
+  "checkpoint": "datasets_50k/quo_vadis/results/ablation/wo_structural_bias_in_attention/seed_17/best_model.pt",
+  "view_weight_summary": {
+    "c0": {
+      "count": 18298,
+      "mean": 0.0022064705330009306,
+      "median": 0.0010018583852797747,
+      "q1": 0.0003796193632297218,
+      "q3": 0.002097609918564558,
+      "iqr": 0.0017179905553348362,
+      "std": 0.005884282635015811
+    },
+    "c1": {
+      "count": 2312,
+      "mean": 0.9292407358664645,
+      "median": 0.9733623266220093,
+      "q1": 0.9556223899126053,
+      "q3": 0.9870526194572449,
+      "iqr": 0.03143022954463959,
+      "std": 0.15081496403002911
+    }
+  }
+}

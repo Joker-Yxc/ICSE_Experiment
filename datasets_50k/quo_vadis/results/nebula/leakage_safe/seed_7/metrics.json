@@ -1,0 +1,64 @@
+{
+  "baseline": "Nebula-Scratch",
+  "dataset": "Quo Vadis Speakeasy local reports",
+  "data_root": "/Users/yanxingchen/Desktop/\u5b9e\u9a8c/datasets_50k/quo_vadis/data/raw",
+  "compact_data": "/Users/yanxingchen/Desktop/\u5b9e\u9a8c/datasets_50k/quo_vadis/leakage_safe/quo_vadis_leakage_safe.jsonl.gz",
+  "data_sha256": "ea8d8837ad58e5d14e88cd01fbdf1c26e9f756986b43466eee94c9ba63780a22",
+  "split_type": "leakage-safe report-group-disjoint exact-sequence-disjoint",
+  "seed": 7,
+  "threshold": 0.99,
+  "threshold_selection": "validation F1",
+  "settings": {
+    "data_root": "datasets_50k/quo_vadis/data/raw",
+    "compact_data": "datasets_50k/quo_vadis/leakage_safe/quo_vadis_leakage_safe.jsonl.gz",
+    "out_dir": "datasets_50k/quo_vadis/results/nebula/leakage_safe/seed_7",
+    "max_attack_samples": 500,
+    "max_normal_samples": 500,
+    "epochs": 30,
+    "batch_size": 32,
+    "lr": 0.0003,
+    "seq_len": 512,
+    "seed": 7,
+    "device": "auto",
+    "rebuild_cache": false
+  },
+  "encoded_shapes": {
+    "X_train": [
+      4647,
+      512
+    ],
+    "X_val": [
+      994,
+      512
+    ],
+    "X_test": [
+      995,
+      512
+    ]
+  },
+  "label_protocol": {
+    "detection": "report_clean/report_windows_syswow64=benign; all other report_* folders=malware"
+  },
+  "random_init_before_training": {
+    "accuracy": 0.37286432160804023,
+    "precision": 0.1832191780821918,
+    "recall": 0.421259842519685,
+    "f1": 0.2553699284009546,
+    "auc": 0.3924362693529706
+  },
+  "validation_detection": {
+    "accuracy": 0.8682092555331992,
+    "precision": 0.7798165137614679,
+    "recall": 0.6719367588932806,
+    "f1": 0.721868365180467,
+    "auc": 0.8901788524214153
+  },
+  "test_detection": {
+    "accuracy": 0.8653266331658291,
+    "precision": 0.7654867256637168,
+    "recall": 0.6811023622047244,
+    "f1": 0.7208333333333333,
+    "auc": 0.8943277333248324
+  },
+  "runtime_seconds": 352.367
+}

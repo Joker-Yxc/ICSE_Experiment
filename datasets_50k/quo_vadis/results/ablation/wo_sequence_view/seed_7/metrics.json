@@ -1,0 +1,153 @@
+{
+  "method": "escapture_dual_view",
+  "variant": "wo_sequence_view",
+  "held_out_family": null,
+  "seed": 7,
+  "status": "ok",
+  "data": "datasets_50k/quo_vadis/leakage_safe/quo_vadis_leakage_safe.jsonl.gz",
+  "split_policy": "existing compact JSONL.GZ split field used verbatim",
+  "split_counts": {
+    "train": 4647,
+    "val": 994,
+    "test": 995
+  },
+  "config": {
+    "semantic_mode": "llm_template",
+    "use_sequence_view": false,
+    "use_graph_view": true,
+    "prior_mode": "real",
+    "hard_switching": false,
+    "use_gating_prior": true,
+    "use_structural_bias": true,
+    "use_relation_features": true,
+    "weighting_mode": "softmax",
+    "lambda_pref": 0.1
+  },
+  "hardware": {
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "python": "3.12.13",
+    "torch": "2.12.0",
+    "device": "cpu",
+    "cpu": "arm"
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.3972124444977045,
+      "preference_loss": 0.11120470153258226,
+      "val_f1": 0.6730401529636711,
+      "threshold": -0.1136733472471434
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.9748169284618464,
+      "preference_loss": 0.014497552627161193,
+      "val_f1": 0.6967213114754098,
+      "threshold": -0.05710487700533129
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.8799430861168263,
+      "preference_loss": 0.005208435116821059,
+      "val_f1": 0.6883365200764818,
+      "threshold": -0.8197011604643194
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.714893318838484,
+      "preference_loss": 0.003297747648328767,
+      "val_f1": 0.690978886756238,
+      "threshold": -0.254487887765281
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.7536755147242706,
+      "preference_loss": 0.0014694534996795843,
+      "val_f1": 0.6883365200764818,
+      "threshold": -0.4715255768383688
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.733349850594915,
+      "preference_loss": 0.0010893044188267265,
+      "val_f1": 0.663023679417122,
+      "threshold": -1.6387271291413334
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.7248391805864076,
+      "preference_loss": 0.0014501562582192667,
+      "val_f1": 0.6901960784313725,
+      "threshold": -0.7797929778322574
+    }
+  ],
+  "validation": {
+    "accuracy": 0.8511066398390342,
+    "precision": 0.723404255319149,
+    "recall": 0.6719367588932806,
+    "f1": 0.6967213114754098,
+    "auc": 0.8505064729321022,
+    "threshold": -0.05710487700533129,
+    "tp": 170,
+    "fp": 65,
+    "fn": 83,
+    "tn": 676
+  },
+  "test": {
+    "accuracy": 0.8452261306532663,
+    "precision": 0.7083333333333334,
+    "recall": 0.6692913385826772,
+    "f1": 0.6882591093117408,
+    "auc": 0.8500377230174163,
+    "threshold": -0.05710487700533129,
+    "tp": 170,
+    "fp": 70,
+    "fn": 84,
+    "tn": 671
+  },
+  "efficiency": {
+    "data_loading_seconds": 0.09348450001562014,
+    "vocabulary_and_mapper_seconds": 0.9658656250103377,
+    "train_cache_entries": 2180,
+    "train_cache_bytes": 607495,
+    "semantic_extraction_seconds": 2.633647854323499,
+    "sequence_truncation_seconds": 0.005648774065775797,
+    "behavior_unit_construction_seconds": 0.2595035119447857,
+    "cache_hit_profile_seconds": 2.5784910829970613,
+    "cache_hit_profile_ms_per_sample": 0.3885610432485023,
+    "training_seconds": 95.43869883398293,
+    "epochs_run": 7,
+    "validation_inference_seconds": 1.400309417018434,
+    "test_inference_seconds": 1.6931169589806814,
+    "test_latency_ms_per_sample": 1.7016250844026948,
+    "test_throughput_samples_per_second": 587.6735181951202,
+    "graph_construction_seconds": 0.17227245899266563,
+    "graphs_constructed": 29179,
+    "peak_rss_mb": 581.5,
+    "gpu_peak_memory_mb": null,
+    "parameter_count": 297652,
+    "checkpoint_bytes": 1345354,
+    "cache_bytes": 607495
+  },
+  "checkpoint": "datasets_50k/quo_vadis/results/ablation/wo_sequence_view/seed_7/best_model.pt",
+  "view_weight_summary": {
+    "c0": {
+      "count": 18298,
+      "mean": 0.0040637610127820314,
+      "median": 0.0029128901660442352,
+      "q1": 0.0016097381012514234,
+      "q3": 0.005080545321106911,
+      "iqr": 0.0034708072198554873,
+      "std": 0.004659983001194407
+    },
+    "c1": {
+      "count": 2312,
+      "mean": 0.9680209990242773,
+      "median": 0.9694138765335083,
+      "q1": 0.962405264377594,
+      "q3": 0.9836193919181824,
+      "iqr": 0.02121412754058838,
+      "std": 0.02419896760002226
+    }
+  }
+}

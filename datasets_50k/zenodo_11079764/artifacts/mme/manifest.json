@@ -1,0 +1,17 @@
+{
+  "data_path": "/Users/yanxingchen/Desktop/\u5b9e\u9a8c/datasets_50k/zenodo_11079764/data/zenodo_main_50k.jsonl.gz",
+  "data_mtime_ns": 1781672564387354826,
+  "max_length": 256,
+  "min_api_frequency": 2,
+  "seed": 7,
+  "limit_per_split": 0,
+  "split_counts": {
+    "train": 35000,
+    "val": 7500,
+    "test": 7500
+  },
+  "vocab_size": 56,
+  "family_count": 124,
+  "knowledge_graph": "fallback_knowledge_graph.json",
+  "resource_encoding": "API name/category deterministic hashed encoding"
+}

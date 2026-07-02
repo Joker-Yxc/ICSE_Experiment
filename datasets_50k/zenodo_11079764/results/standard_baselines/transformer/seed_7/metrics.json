@@ -1,0 +1,49 @@
+{
+  "best_validation_f1": 0.9039117352056169,
+  "config": {
+    "batch_size": 128,
+    "data": "datasets_50k/zenodo_11079764/leakage_safe/zenodo_11079764_leakage_safe.jsonl.gz",
+    "device": "auto",
+    "embedding_dim": 64,
+    "epochs": 30,
+    "hidden_dim": 96,
+    "learning_rate": 0.001,
+    "limit_per_split": 0,
+    "max_length": 200,
+    "models": "transformer",
+    "out_dir": "datasets_50k/zenodo_11079764/results/standard_baselines",
+    "patience": 5,
+    "seed": 7
+  },
+  "data": "datasets_50k/zenodo_11079764/leakage_safe/zenodo_11079764_leakage_safe.jsonl.gz",
+  "data_sha256": "9babcb98decec842f01344ac25acd148a57a16baa0705c35e7e86d1c82d033d8",
+  "epochs_run": 29,
+  "feature_or_vocabulary_count": 55,
+  "max_length": 200,
+  "method": "transformer",
+  "parameter_count": 87041,
+  "runtime_seconds": 1518.726591791,
+  "seed": 7,
+  "split_counts": {
+    "test": 5832,
+    "train": 27218,
+    "val": 5832
+  },
+  "test": {
+    "accuracy": 0.9159807956104252,
+    "auc": 0.9641232447452684,
+    "f1": 0.9051490514905149,
+    "precision": 0.8759835144248782,
+    "recall": 0.9363235883059672,
+    "threshold": 0.4870667338371291
+  },
+  "threshold": 0.4870667338371291,
+  "validation": {
+    "accuracy": 0.9178669410150891,
+    "auc": 0.9605689345955778,
+    "f1": 0.9039117352056169,
+    "precision": 0.9055466237942122,
+    "recall": 0.9022827392871445,
+    "threshold": 0.4870667338371291
+  }
+}

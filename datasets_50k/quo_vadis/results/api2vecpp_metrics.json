@@ -1,0 +1,18 @@
+{
+  "method": "api2vecpp",
+  "status": "ok",
+  "epochs_run": 22,
+  "best_val_f1": 0.9218426501035196,
+  "threshold": 0.5,
+  "runtime_seconds": 37.119,
+  "val_accuracy": 0.9194666666666667,
+  "val_precision": 0.8954248366013072,
+  "val_recall": 0.9498666666666666,
+  "val_f1": 0.9218426501035196,
+  "val_auc": 0.9805994311111111,
+  "test_accuracy": 0.9265333333333333,
+  "test_precision": 0.9083482256829206,
+  "test_recall": 0.9488,
+  "test_f1": 0.9281335594104604,
+  "test_auc": 0.9823943466666666
+}

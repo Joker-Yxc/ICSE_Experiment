@@ -1,0 +1,160 @@
+{
+  "method": "escapture_dual_view",
+  "variant": "wo_graph_view",
+  "held_out_family": null,
+  "seed": 27,
+  "status": "ok",
+  "data": "datasets_50k/quo_vadis/leakage_safe/quo_vadis_leakage_safe.jsonl.gz",
+  "split_policy": "existing compact JSONL.GZ split field used verbatim",
+  "split_counts": {
+    "train": 4647,
+    "val": 994,
+    "test": 995
+  },
+  "config": {
+    "semantic_mode": "llm_template",
+    "use_sequence_view": true,
+    "use_graph_view": false,
+    "prior_mode": "real",
+    "hard_switching": false,
+    "use_gating_prior": true,
+    "use_structural_bias": true,
+    "use_relation_features": true,
+    "weighting_mode": "softmax",
+    "lambda_pref": 0.1
+  },
+  "hardware": {
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "python": "3.12.13",
+    "torch": "2.12.0",
+    "device": "cpu",
+    "cpu": "arm"
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.3732153907151035,
+      "preference_loss": 0.1556173626034823,
+      "val_f1": 0.6495412844036698,
+      "threshold": -0.07240807726358334
+    },
+    {
+      "epoch": 2,
+      "train_loss": 2.073428568139256,
+      "preference_loss": 0.050312688818225,
+      "val_f1": 0.6413223140495867,
+      "threshold": -0.042194424588232415
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.9359257184503451,
+      "preference_loss": 0.010919569490329099,
+      "val_f1": 0.6839186691312384,
+      "threshold": -0.026616394832380763
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.9489993782490511,
+      "preference_loss": 0.004642377974306339,
+      "val_f1": 0.6666666666666666,
+      "threshold": -2.878568530736956
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.9074122445392845,
+      "preference_loss": 0.0018883772255632513,
+      "val_f1": 0.5162644281217209,
+      "threshold": -3.97190021802128
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.9556964181453718,
+      "preference_loss": 0.0008995938384584947,
+      "val_f1": 0.6749555950266429,
+      "threshold": -3.1378781855665148
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.835148582744308,
+      "preference_loss": 0.0005504919223155415,
+      "val_f1": 0.6750448833034112,
+      "threshold": -0.7037549261536338
+    },
+    {
+      "epoch": 8,
+      "train_loss": 1.8291071324693953,
+      "preference_loss": 0.0011457756703632516,
+      "val_f1": 0.6773618538324421,
+      "threshold": -1.4873710939097995
+    }
+  ],
+  "validation": {
+    "accuracy": 0.8279678068410463,
+    "precision": 0.6423611111111112,
+    "recall": 0.7312252964426877,
+    "f1": 0.6839186691312384,
+    "auc": 0.8683703786678615,
+    "threshold": -0.026616394832380763,
+    "tp": 185,
+    "fp": 103,
+    "fn": 68,
+    "tn": 638
+  },
+  "test": {
+    "accuracy": 0.8130653266331658,
+    "precision": 0.6197183098591549,
+    "recall": 0.6929133858267716,
+    "f1": 0.654275092936803,
+    "auc": 0.8520354490101693,
+    "threshold": -0.026616394832380763,
+    "tp": 176,
+    "fp": 108,
+    "fn": 78,
+    "tn": 633
+  },
+  "efficiency": {
+    "data_loading_seconds": 0.09348450001562014,
+    "vocabulary_and_mapper_seconds": 0.9975214169826359,
+    "train_cache_entries": 2180,
+    "train_cache_bytes": 607495,
+    "semantic_extraction_seconds": 2.6508496066671796,
+    "sequence_truncation_seconds": 0.005642451986204833,
+    "behavior_unit_construction_seconds": 0.2612950860930141,
+    "cache_hit_profile_seconds": 2.592260749981506,
+    "cache_hit_profile_ms_per_sample": 0.39063603827328297,
+    "training_seconds": 118.00384291599039,
+    "epochs_run": 8,
+    "validation_inference_seconds": 1.259519832994556,
+    "test_inference_seconds": 1.5203940839855932,
+    "test_latency_ms_per_sample": 1.5280342552619026,
+    "test_throughput_samples_per_second": 654.4355904040918,
+    "graph_construction_seconds": 0.20862845800002106,
+    "graphs_constructed": 29179,
+    "peak_rss_mb": 581.5,
+    "gpu_peak_memory_mb": null,
+    "parameter_count": 297652,
+    "checkpoint_bytes": 1345354,
+    "cache_bytes": 607495
+  },
+  "checkpoint": "datasets_50k/quo_vadis/results/ablation/wo_graph_view/seed_27/best_model.pt",
+  "view_weight_summary": {
+    "c0": {
+      "count": 18298,
+      "mean": 0.002070289106745702,
+      "median": 0.0010685673914849758,
+      "q1": 0.0005483903223648667,
+      "q3": 0.001409142860211432,
+      "iqr": 0.0008607525378465652,
+      "std": 0.00493360929044378
+    },
+    "c1": {
+      "count": 2312,
+      "mean": 0.955436470599323,
+      "median": 0.9701875448226929,
+      "q1": 0.9433806538581848,
+      "q3": 0.9823943972587585,
+      "iqr": 0.03901374340057373,
+      "std": 0.04119262146611253
+    }
+  }
+}

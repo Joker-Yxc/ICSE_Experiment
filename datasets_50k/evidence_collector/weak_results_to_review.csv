@@ -1,0 +1,19 @@
+section,dataset,method,status,seeds,artifact_path,review_reason,paper_use
+RQ1,Quo Vadis,Legacy DSVDD,diagnostic,7,datasets_50k/quo_vadis/results/full_model/full/seed_7/metrics.json,single-seed or legacy configuration,diagnostic only
+RQ1,Quo Vadis,P2,diagnostic,7,datasets_50k/quo_vadis/results/full_model_repairs/p2_unit16_uniform_epoch_resample/full/seed_7/metrics.json,single-seed or legacy configuration,diagnostic only
+RQ1,Quo Vadis,P3a,diagnostic,7,datasets_50k/quo_vadis/results/full_model_repairs/p3a_gating_regularization/full/seed_7/metrics.json,single-seed or legacy configuration,diagnostic only
+RQ1,Quo Vadis,P3b,diagnostic,7,datasets_50k/quo_vadis/results/full_model_repairs/p3b_supervised_bce/full/seed_7/metrics.json,single-seed or legacy configuration,diagnostic only
+RQ1,Quo Vadis,EsCapturer-full legacy DSVDD,diagnostic,7/17/27,datasets_50k/quo_vadis/results/full_model/full,legacy five-unit DSVDD is not the repaired final configuration,diagnostic only
+RQ1,Quo Vadis,Nebula,diagnostic,7,datasets_50k/quo_vadis/results/nebula/leakage_safe/seed_7/metrics.json,leakage-safe but two seeds missing,diagnostic only
+RQ1,Zenodo 11079764,GRU,suspicious/review,7,datasets_50k/zenodo_11079764/results/standard_baselines/gru/seed_7,only one seed and runtime requires investigation,exclude from ranking
+RQ3,Quo Vadis,w/o semantic elements,diagnostic,7/17/27,datasets_50k/quo_vadis/results/ablation/wo_semantic_elements,complete seeds but legacy DSVDD/five-unit experiment family,diagnostic only
+RQ3,Quo Vadis,w/o sequence view,diagnostic,7/17/27,datasets_50k/quo_vadis/results/ablation/wo_sequence_view,complete seeds but legacy DSVDD/five-unit experiment family,diagnostic only
+RQ3,Quo Vadis,w/o graph view,diagnostic,7/17/27,datasets_50k/quo_vadis/results/ablation/wo_graph_view,complete seeds but legacy DSVDD/five-unit experiment family,diagnostic only
+RQ3,Quo Vadis,w/o interleaving prior in gating,diagnostic,7/17/27,datasets_50k/quo_vadis/results/ablation/wo_interleaving_prior_in_gating,complete seeds but legacy DSVDD/five-unit experiment family,diagnostic only
+RQ3,Quo Vadis,w/o structural bias in attention,diagnostic,7/17/27,datasets_50k/quo_vadis/results/ablation/wo_structural_bias_in_attention,complete seeds but legacy DSVDD/five-unit experiment family,diagnostic only
+RQ3,Quo Vadis,w/o relation features,diagnostic,7/17/27,datasets_50k/quo_vadis/results/ablation/wo_relation_features,complete seeds but legacy DSVDD/five-unit experiment family,diagnostic only
+RQ3,Quo Vadis,w/o preference loss,diagnostic,7,datasets_50k/quo_vadis/results/ablation/wo_preference_loss/seed_7/metrics.json,only seed 7 has metrics; seed 17 checkpoint lacks metrics,diagnostic only
+RQ4,Quo Vadis,P2 CPU profile,diagnostic,7,datasets_50k/quo_vadis/results/full_model_repairs/p2_unit16_uniform_epoch_resample/full/seed_7/metrics.json,single-seed Apple M4 CPU profile,diagnostic only
+RQ4,Quo Vadis,P3a CPU profile,diagnostic,7,datasets_50k/quo_vadis/results/full_model_repairs/p3a_gating_regularization/full/seed_7/metrics.json,single-seed Apple M4 CPU profile,diagnostic only
+RQ4,Quo Vadis,P3b CPU profile,diagnostic,7,datasets_50k/quo_vadis/results/full_model_repairs/p3b_supervised_bce/full/seed_7/metrics.json,single-seed Apple M4 CPU profile,diagnostic only
+RQ5,Quo Vadis,P3a view-weight audit,diagnostic,7,datasets_50k/quo_vadis/results/full_model_repairs/p3a_gating_regularization/view_weight_analysis_seed_7.json,single-seed; F1 decreases despite more prior-consistent weights,interpretability diagnostic only

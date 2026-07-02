@@ -1,0 +1,62 @@
+{
+  "extractor": "FrozenTemplateBehaviorExtractor",
+  "schema": [
+    "subject",
+    "operation",
+    "object",
+    "resource",
+    "context",
+    "goal",
+    "template_id"
+  ],
+  "template_library_version": "llm_template_v1",
+  "llm_role": "semantic parser only; no label or malware verdict is produced",
+  "privacy": "API names are normalized/desensitized; paths, IPs, and hashes are replaced by placeholders",
+  "rows_profiled": 5000,
+  "elements_profiled": 983833,
+  "avg_units_per_sample": 54.5364,
+  "resource_distribution": {
+    "system": 333550,
+    "ipc": 310951,
+    "memory": 223202,
+    "file": 102536,
+    "process": 11126,
+    "registry": 1672,
+    "permission": 619,
+    "network": 177
+  },
+  "goal_distribution": {
+    "execution_coordination": 310951,
+    "payload_preparation": 223202,
+    "execution_context": 198507,
+    "data_collection": 95726,
+    "control_flow": 61498,
+    "data_preparation": 38534,
+    "anti_analysis_or_setup": 35011,
+    "payload_execution": 10997,
+    "filesystem_modification": 6810,
+    "persistence": 1672,
+    "privilege_operation": 619,
+    "c2_or_exfiltration": 177,
+    "privilege_or_injection": 129
+  },
+  "template_distribution": {
+    "ipc_sync": 310951,
+    "memory_exec": 223202,
+    "generic_call": 198507,
+    "file_read": 95726,
+    "error_state": 61498,
+    "encoding_transform": 38534,
+    "environment_probe": 35011,
+    "process_exec": 10997,
+    "file_write": 6012,
+    "registry_modify": 1672,
+    "file_delete": 798,
+    "permission_change": 619,
+    "network_connect": 177,
+    "process_control": 129
+  },
+  "latency_seconds": 19.919402,
+  "latency_ms_per_sample": 3.98388,
+  "profile_note": "profiled first 5000 rows to avoid large intermediate extraction artifacts"
+}

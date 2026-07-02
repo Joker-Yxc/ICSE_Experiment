@@ -1,0 +1,9 @@
+{
+  "data": "datasets_50k/zenodo_11079764/data/zenodo_main_50k.jsonl.gz",
+  "total": 50000,
+  "split_counts": {
+    "train": 35000,
+    "val": 7500,
+    "test": 7500
+  }
+}
